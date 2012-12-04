@@ -8,23 +8,67 @@
 :: Page Name 2
 */
 
+/* -----------------------------------------
+    Global
+----------------------------------------- */
+body{
+    background: url("../images/stripe_body.png") repeat;
+}
+
+.show-940{
+    display: none !important;
+}
+.hide-940{
+    display: inherit !important;
+}
 
 /* -----------------------------------------
-   Shared Styles
+   Top-Bar
 ----------------------------------------- */
 .bottom-bar{
     margin: 0;
     padding: 30px 10px;
     width: 100%;
 }
-.top-bar{
+.action-bar{
     background: url("../images/stripe_top.png") repeat;
+    margin: 0 0 30px;
 }
-
+.top-bar{
+    background: none !important;
+    margin: 0 !important;
+}
 .bar-title{
     line-height: 16px !important;
 }
+.action-bar-title {
+    display: none !important;
+}
 
+.p-menu > li:not(.name):hover, .p-menu > li:not(.name).active {
+    background: none !important;
+}
+
+.p-menu > li:not(.name) > a:hover, .p-menu > li:not(.name).active > a:hover {
+    height: 45px;
+    border-bottom: 4px solid #0099CC;
+    color: white !important;
+}
+
+.ic-overflow > a{
+    padding: 5px 0 0 !important;
+}
+.ic-overflow > a:after{
+    border: none !important;
+}
+/* -----------------------------------------
+   Background
+----------------------------------------- */
+
+
+/* -----------------------------------------
+  Max Width: 940px
+----------------------------------------- */
 @media only screen and (max-width: 940px) {
     .bar-title{
         line-height: 16px !important;
@@ -33,18 +77,17 @@
     .top-bar ul > li.name {
         background: none !important;
     }
+
+    .action-bar-title {
+        display: inline ! important;
+    }
+
+    .show-940{
+        display: inherit !important;;
+    }
+    .hide-940{
+        display: none !important;
+    }
 }
-
-
-/* -----------------------------------------
-   Page Name 1
------------------------------------------ */
-
-
-
-
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
 
 
