@@ -11,83 +11,101 @@
 /* -----------------------------------------
     Global
 ----------------------------------------- */
-body{
-    background: url("../images/stripe_body.png") repeat;
+body{ /*background: url("../images/stripe_body.png") repeat;*/background: #f0f0f0; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YwZjBmMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #f0f0f0 0%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f0f0), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f0f0f0 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f0f0f0 0%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f0f0f0 0%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f0f0f0 0%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
 }
 
-.show-940{
-    display: none !important;
-}
-.hide-940{
-    display: inherit !important;
-}
+.show-940{ display: none !important; }
+.hide-940{ display: inherit !important; }
 
 /* -----------------------------------------
-   Top-Bar
+   Top-Bar  / Title-Bar / Footer
 ----------------------------------------- */
-.bottom-bar{
-    margin: 0;
-    padding: 30px 10px;
-    width: 100%;
-}
-.action-bar{
-    background: url("../images/stripe_top.png") repeat;
-    margin: 0 0 30px;
-}
-.top-bar{
-    background: none !important;
-    margin: 0 !important;
-}
-.bar-title{
-    line-height: 16px !important;
-}
-.action-bar-title {
-    display: none !important;
-}
+.bottom-bar{ color: #FFFFFF; margin: 0; padding: 10px 10px; width: 100%; }
+.action-bar, .bottom-bar{ background: url("../images/stripe_top.png") repeat; }
+.top-bar{ background: none !important; margin: 0 !important; }
+.bar-title{ line-height: 16px !important; }
+.action-bar-title { display: none !important; }
+.p-menu > li:not(.name):hover, .p-menu > li:not(.name).active { background: none !important; }
+.p-menu > li:not(.name) > a:hover, .p-menu > li:not(.name).active > a:hover { height: 45px; border-bottom: 4px solid #0099CC; color: white !important; }
+.ic-overflow > a{ padding: 5px 0 0 !important; }
+.ic-overflow > a:after{ border: none !important; }
+.ic-overflow > a:hover, .ic-overflow > a:hover{ height: 45px !important; border-bottom: none !important; background: url("../images/stripe_select.png") repeat !important; }
+.title-bar{ background: url("../images/stripe_body.png") repeat; margin: 0; border-bottom: 1px solid #DFDFDF; }
+.socials-buttons{ padding-right: 0; padding-left: 40px; }
+.socials-buttons > .ic-btn{ margin-top: 10px; }
+.title-logo{ padding-top: 10px; padding-bottom: 10px; }
+.title-logo > span{ color: #AAAAAA;  }
 
-.p-menu > li:not(.name):hover, .p-menu > li:not(.name).active {
-    background: none !important;
-}
-
-.p-menu > li:not(.name) > a:hover, .p-menu > li:not(.name).active > a:hover {
-    height: 45px;
-    border-bottom: 4px solid #0099CC;
-    color: white !important;
-}
-
-.ic-overflow > a{
-    padding: 5px 0 0 !important;
-}
-.ic-overflow > a:after{
-    border: none !important;
-}
 /* -----------------------------------------
-   Background
+   Icons
 ----------------------------------------- */
+.ic-btn{ display: block; float: left; }
+.ic-action{ background: url("../images/icons.png") no-repeat top left; }
+.ic-action-amazon{ background-position: 0 0; width: 48px; height: 48px; }
+.ic-action-android{ background-position: 0 -98px; width: 48px; height: 48px; }
+.ic-action-attachment_2{ background-position: 0 -196px; width: 48px; height: 48px; }
+.ic-action-bulb{ background-position: 0 -294px; width: 48px; height: 48px; }
+.ic-action-facebook{ background-position: 0 -392px; width: 48px; height: 48px; }
+.ic-action-feed{ background-position: 0 -490px; width: 48px; height: 48px; }
+.ic-action-folder_open{ background-position: 0 -588px; width: 48px; height: 48px; }
+.ic-action-github{ background-position: 0 -686px; width: 48px; height: 48px; }
+.ic-action-gmail{ background-position: 0 -784px; width: 48px; height: 48px; }
+.ic-action-google_play{ background-position: 0 -882px; width: 48px; height: 48px; }
+.ic-action-gplus{ background-position: 0 -980px; width: 48px; height: 48px; }
+.ic-action-laptop{ background-position: 0 -1078px; width: 48px; height: 48px; }
+.ic-action-like{ background-position: 0 -1176px; width: 48px; height: 48px; }
+.ic-action-linkedin{ background-position: 0 -1274px; width: 48px; height: 48px; }
+.ic-action-monitor{ background-position: 0 -1372px; width: 48px; height: 48px; }
+.ic-action-phone{ background-position: 0 -1470px; width: 48px; height: 48px; }
+.ic-action-picture{ background-position: 0 -1568px; width: 48px; height: 48px; }
+.ic-action-pie_chart{ background-position: 0 -1666px; width: 48px; height: 48px; }
+.ic-action-pinterest{ background-position: 0 -1764px; width: 48px; height: 48px; }
+.ic-action-planet{ background-position: 0 -1862px; width: 48px; height: 48px; }
+.ic-action-plusone{ background-position: -98px 0; width: 48px; height: 48px; }
+.ic-action-present{ background-position: -98px -98px; width: 48px; height: 48px; }
+.ic-action-settings{ background-position: -98px -196px; width: 48px; height: 48px; }
+.ic-action-signal{ background-position: -98px -294px; width: 48px; height: 48px; }
+.ic-action-sms{ background-position: -98px -392px; width: 48px; height: 48px; }
+.ic-action-soundcloud{ background-position: -98px -490px; width: 48px; height: 48px; }
+.ic-action-stamp{ background-position: -98px -588px; width: 48px; height: 48px; }
+.ic-action-star_0{ background-position: -98px -686px; width: 48px; height: 48px; }
+.ic-action-star_10{ background-position: -98px -784px; width: 48px; height: 48px; }
+.ic-action-star_5{ background-position: -98px -882px; width: 48px; height: 48px; }
+.ic-action-stumbleupon{ background-position: -98px -980px; width: 48px; height: 48px; }
+.ic-action-tablet{ background-position: -98px -1078px; width: 48px; height: 48px; }
+.ic-action-tumblr{ background-position: -98px -1176px; width: 48px; height: 48px; }
+.ic-action-tv{ background-position: -98px -1274px; width: 48px; height: 48px; }
+.ic-action-twitter{ background-position: -98px -1372px; width: 48px; height: 48px; }
+.ic-action-vimeo{ background-position: -98px -1470px; width: 48px; height: 48px; }
+.ic-action-warning{ background-position: -98px -1568px; width: 48px; height: 48px; }
+.ic-action-youtube{ background-position: -98px -1666px; width: 48px; height: 48px; }
+
+/* -----------------------------------------
+  Article
+----------------------------------------- */
+.article{ margin: 10px 0; padding: 0 10px !important; background-color: #FDFDFD; border: 1px solid #DFDFDF; padding: 5px; -moz-box-shadow: 0px 3px 3px 0px #DFDFDF; -webkit-box-shadow: 0px 1px 1px 0px #DFDFDF; -o-box-shadow: 0px 1px 1px 0px #DFDFDF; box-shadow: 0px 1px 1px 0px #DFDFDF; filter: progid:DXImageTransform.Microsoft.Shadow(color=#DFDFDF, Direction=180, Strength=1); -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
 
 
 /* -----------------------------------------
   Max Width: 940px
 ----------------------------------------- */
 @media only screen and (max-width: 940px) {
-    .bar-title{
-        line-height: 16px !important;
-    }
+    .bar-title{ line-height: 16px !important; }
+    .top-bar ul > li.name { background: none !important; }
+    .action-bar-title { display: inline ! important; }
+    .socials-buttons{ padding-left: 15px; padding-right: 15px; }
 
-    .top-bar ul > li.name {
-        background: none !important;
-    }
-
-    .action-bar-title {
-        display: inline ! important;
-    }
-
-    .show-940{
-        display: inherit !important;;
-    }
-    .hide-940{
-        display: none !important;
-    }
+    .show-940{ display: inherit !important; }
+    .hide-940{ display: none !important; }
 }
 
 
