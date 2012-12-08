@@ -373,7 +373,17 @@ article > .details{ color: #9C9C9C; font-weight: bold; margin-bottom: 10px !impo
 ----------------------------------------- */
 aside{ padding: 0 !important; }
 aside .widget{ margin: 10px 0; border: 1px solid #DFDFDF; border-bottom: 3px solid #33B5E5; }
+aside > div:nth-of-type(1){ border-bottom: 3px solid #33B5E5; }
+aside > div:nth-of-type(2){ border-bottom: 3px solid #AA66CC; }
+aside > div:nth-of-type(3){ border-bottom: 3px solid #99CC00; }
+aside > div:nth-of-type(4){ border-bottom: 3px solid #FFBB33; }
+aside > div:nth-of-type(5){ border-bottom: 3px solid #FF4444; }
 aside .widget .title{ background: url("../images/stripe_body.png") repeat; border-bottom: 3px solid #33B5E5; padding: 10px 5px; text-align: center; color: #9C9C9C; margin: 0; }
+aside > div:nth-of-type(1) .title{ border-bottom: 3px solid #33B5E5; }
+aside > div:nth-of-type(2) .title{ border-bottom: 3px solid #AA66CC; }
+aside > div:nth-of-type(3) .title{ border-bottom: 3px solid #99CC00; }
+aside > div:nth-of-type(4) .title{ border-bottom: 3px solid #FFBB33; }
+aside > div:nth-of-type(5) .title{ border-bottom: 3px solid #FF4444; }
 aside .widget .content{ background-color: #FCFCFC; }
 aside .widget .content ul{ margin: 0; }
 aside .widget .content ul > li{ list-style: none; padding: 0; border-bottom: 1px solid #F0F0F0; }
@@ -381,7 +391,12 @@ aside .widget .content ul > li:last-child{ border-bottom: none; }
 aside .widget .content ul > li
 aside .widget .content ul > li > a{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
 aside .widget .content a{ display: block; color: #8C8C8C; font-weight: bold; padding: 10px 10px 10px 15px; }
-aside .widget .content a:hover{ padding-left: 5px; border-left: 10px solid #FFBB33; }
+aside .widget .content a:hover{ padding-left: 5px; border-left: 10px solid #33B5E5; }
+aside > div:nth-of-type(1) .content a:hover{ border-left: 10px solid #33B5E5;}
+aside > div:nth-of-type(2) .content a:hover{ border-left: 10px solid #AA66CC;}
+aside > div:nth-of-type(3) .content a:hover{ border-left: 10px solid #99CC00;}
+aside > div:nth-of-type(4) .content a:hover{ border-left: 10px solid #FFBB33;}
+aside > div:nth-of-type(5) .content a:hover{ border-left: 10px solid #FF4444;}
 aside .widget .content a > span{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
 aside .widget .content.small ul > li > a{ font-size: small; }
 aside .widget .content.small ul > li > a > span.small{ font-size: smaller; }
