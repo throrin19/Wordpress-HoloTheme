@@ -327,11 +327,22 @@ body{ /*background: url("../images/stripe_body.png") repeat;*/background: #f0f0f
 .txt-right{ text-align: right; }
 .txt-left{ text-align: left;}
 .txt-center{ text-align: center; }
+.ov-auto{ overflow: auto; }
+.relative{ position: relative; }
+
 
 /* -----------------------------------------
-   Top-Bar  / Title-Bar / Footer
+   Form and input
 ----------------------------------------- */
-.bottom-bar{ color: #FFFFFF; margin: 0; padding: 10px 10px; width: 100%; }
+input[type=text], input[type=textarea]{ padding: 0; height: 25px; background: none; -webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; border:none; box-shadow: none; margin: 0; }
+.holo-field{ position: relative; }
+.holo-field-bckg{ bottom: 0; position: absolute; height: 5px; width: 100%; border-left: 1px solid #9C9C9C; border-bottom: 1px solid #9C9C9C; border-right: 1px solid #9C9C9C; }
+button, .holo-btn{  }
+button:hover, .holo-btn:hover{ }
+
+/* -----------------------------------------
+   Top-Bar  / Title-Bar
+----------------------------------------- */
 .action-bar, .bottom-bar{ background: url("../images/stripe_top.png") repeat; }
 .top-bar{ background: none !important; margin: 0 !important; }
 .bar-title{ line-height: 16px !important; }
@@ -353,7 +364,7 @@ body{ /*background: url("../images/stripe_body.png") repeat;*/background: #f0f0f
 article{ margin: 10px 0; padding: 0 10px !important; background-color: #FDFDFD; border: 1px solid #DFDFDF; padding: 5px; -moz-box-shadow: 0px 3px 3px 0px #DFDFDF; -webkit-box-shadow: 0px 1px 1px 0px #DFDFDF; -o-box-shadow: 0px 1px 1px 0px #DFDFDF; box-shadow: 0px 1px 1px 0px #DFDFDF; filter: progid:DXImageTransform.Microsoft.Shadow(color=#DFDFDF, Direction=180, Strength=1); -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
 article > h3.title{ margin-bottom: 2px; }
 article > h3.title > a{ font-weight: lighter; color: #9C9C9C; }
-article > .infos{ font-weight: normal; color: #9C9C9C; padding: 10px 0; border-top: 1px solid #DFDFDF; margin: 0 -10px; }
+article > .infos{ font-weight: normal; color: #9C9C9C; padding: 10px 0; border-top: 1px solid #DFDFDF; margin: 0 -10px !important; }
 article > .infos a{ color: #9C9C9C; font-weight: bold; }
 article > .details{ color: #9C9C9C; font-weight: bold; margin-bottom: 10px !important; }
 
@@ -368,9 +379,37 @@ aside .widget .content ul{ margin: 0; }
 aside .widget .content ul > li{ list-style: none; padding: 0; border-bottom: 1px solid #F0F0F0; }
 aside .widget .content ul > li:last-child{ border-bottom: none; }
 aside .widget .content ul > li
-aside .widget .content ul > li > a{ display: block; }
+aside .widget .content ul > li > a{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
 aside .widget .content a{ display: block; color: #8C8C8C; font-weight: bold; padding: 10px 10px 10px 15px; }
 aside .widget .content a:hover{ padding-left: 5px; border-left: 10px solid #FFBB33; }
+aside .widget .content a > span{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
+aside .widget .content.small ul > li > a{ font-size: small; }
+aside .widget .content.small ul > li > a > span.small{ font-size: smaller; }
+aside > form{ margin: 10px 1px; }
+aside > form.search > div{ display: -webkit-box; display: -moz-box; display: box; }
+aside > form.search input[type=text]{ padding: 0; height: 25px; background: none; -webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; border:none; box-shadow: none; margin: 0; }
+aside > form.search input[type=text]:hover{ color: #33b5e5; }
+aside > form.search input[type=submit]{ border:none; box-shadow: none; cursor: pointer; }
+
+/* ------------------------------------------
+  Footer / Widgets
+----------------------------------------- */
+.bottom-bar{ color: #FFFFFF; margin: 0; padding: 10px 10px; width: 100%; }
+footer .widget{ margin: 10px 0; }
+footer .widget .title{ text-align: left; margin: 0; padding: 10px 5px; }
+footer div:nth-of-type(1) .title{ color: #9933CC; border-bottom: 2px solid #9933CC; }
+footer div:nth-of-type(2) .title{ color: #FF8800; border-bottom: 2px solid #FF8800; }
+footer div:nth-of-type(3) .title{ color: #CC0000; border-bottom: 2px solid #CC0000; }
+footer div:nth-of-type(1) .content a:hover{ padding-left: 5px; border-left: 10px solid #9933CC; }
+footer div:nth-of-type(2) .content a:hover{ padding-left: 5px; border-left: 10px solid #FF8800; }
+footer div:nth-of-type(3) .content a:hover{ padding-left: 5px; border-left: 10px solid #CC0000; }
+footer .widget .content ul > li{ display: block; list-style: none; border-bottom: 1px solid #9C9C9C; }
+footer .widget .content a > span{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
+footer .widget .content.small ul > li > a{ font-size: small; }
+footer .widget .content.small ul > li > a > span.small{ font-size: smaller; }
+footer .widget .content a{ display: block; color: #8C8C8C; font-weight: bold; padding: 10px 10px 10px 15px; }
+footer .widget .content > .text{ color: #8C8C8C; padding: 10px; }
+footer .site-info{ border-top: 1px solid #669900; padding: 10px; font-size: smaller; color: #669900 }
 
 /* -----------------------------------------
   Max Width: 940px
@@ -383,8 +422,6 @@ aside .widget .content a:hover{ padding-left: 5px; border-left: 10px solid #FFBB
 
     .show-940{ display: inherit !important; }
     .hide-940{ display: none !important; }
-    .article > .infos .txt-right, .article > .details .txt-right{ text-align: left; }
+    article > .infos .txt-right, article > .details .txt-right{ text-align: left; }
     aside{ padding: 0 15px !important; }
 }
-
-

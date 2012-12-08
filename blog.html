@@ -255,8 +255,18 @@
 
             <!-- Sidebar -->
             <aside class="three columns">
+
+                <form class="search" id="searchform" action="#" method="get">
+                    <div class="search-box relative">
+                        <div class="holo-field-bckg"></div>
+                        <i class="ic-action-small ic-action-small-search"></i>
+                        <input type="text" id="search" name="search" value="Tapez votre Recherche Ici" onfocus="this.value=''" onblur="this.value='Tapez votre Recherche Ici'">
+                        <input type="submit" value="" class="submit ic-action-small ic-action-small-send" id="searchsubmit">
+                    </div>
+                </form>
+
                 <div class="widget">
-                    <h3 class="title">Catégories</h3>
+                    <h5 class="title">Catégories</h5>
                     <div class="content">
                         <ul>
                             <li><a href="#">Développement (5)</a></li>
@@ -264,6 +274,43 @@
                             <li><a href="#">PHP (10)</a></li>
                             <li><a href="#">Zend Framework (60)</a></li>
                             <li><a href="#">Projets (5)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="widget">
+                    <h5 class="title">Commentaires récents</h5>
+                    <div class="content small">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span>Nos lecteurs ont testé le Nexus 4 ! | GALAXUS</span>
+                                    <span class="small">Nexus 4 Review (et un de plus)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Antoine Merle (@ygort)</span>
+                                    <span class="small">Nexus 4 Review (et un de plus)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Fritte Laurent H. (@Fritte7)</span>
+                                    <span class="small">Nexus 4 Review (et un de plus)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>@iblasquez</span>
+                                    <span class="small">Introduction aux Intents et récupération d’un fichier</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Quentin Boileau (@01kite)</span>
+                                    <span class="small">Introduction aux Intents et récupération d’un fichier</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -277,18 +324,73 @@
             <div class="row">
                 <div class="twelve columns">
                     <div class="row">
-                        <div class="six columns">
-                            <p>&copy; Copyright no one at all. Go to town.</p>
+                        <div class="four columns">
+                            <div class="widget">
+                                <h5 class="title">Messages Populaires</h5>
+                                <div class="content small">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <span>Nexus 4 Review (et un de plus)</span>
+                                                <span class="small">12 commentaire(s)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>ZF partie 5 : Doctrine</span>
+                                                <span class="small">10 commentaire(s)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Nouvelles du front</span>
+                                                <span class="small">3 commentaire(s)</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>ZendX Jquery</span>
+                                                <span class="small">1 commentaire(s)</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="six columns">
-                            <ul class="link-list right">
-                                <li><a href="#">Link 1</a></li>
-                                <li><a href="#">Link 2</a></li>
-                                <li><a href="#">Link 3</a></li>
-                                <li><a href="#">Link 4</a></li>
-                            </ul>
+                        <div class="four columns">
+                            <div class="widget">
+                                <h5 class="title">Archives</h5>
+                                <div class="content">
+                                    <ul>
+                                        <li><a href="#">Novembre 2012</a></li>
+                                        <li><a href="#">Octobre 2012)</a></li>
+                                        <li><a href="#">Septembre 2012</a></li>
+                                        <li><a href="#">Aout 2012</a></li>
+                                        <li><a href="#">Juillet 2012</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="four columns">
+                            <div class="widget">
+                                <h5 class="title">A propos de l’Auteur</h5>
+                                <div class="content">
+                                    <div class="text">
+                                        <p>Je suis Analyste Développeur chez Goomeo et je suis passioné par tout ce qui touche aux technologies du Web. J'ai commencé par apprendre l'utilisation du Framework Zend et j'ai continué naturellement via Android. Le tout seulement avec les bases acquises en DUT et Licence professionnelle Informatique.</p>
+                                        <p>Vous trouverez donc sur ce site divers choses utiles (ou non) pour répondre à vos problèmes.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                     <p class="site-info">
+                         Copyright © 2009 - 2012 Throrin's Studio • Optimisé Chrome et Internet Explorer 9 • Responsive WebDesign
+                     </p>
+
                 </div>
             </div>
         </footer>
