@@ -43,7 +43,30 @@
                     <!-- Left Nav Section -->
                     <ul class="p-menu left">
                         <li class="divider"></li>
-                        <li class="has-dropdown">
+
+                        <?php
+                            $categories = get_categories();
+                            foreach($categories as $category){
+                                if ($category->parent == 0) {
+                                    $childs =  get_categories('parent='.$category->cat_ID);
+                        ?>
+                        <li <?php if(count($childs) > 0){ ?>class="has-dropdown"<?php } ?>>
+                            <a href="<?php echo get_category_link($category->term_id); ?>"><?php echo $category->name; ?></a>
+                            <?php if(count($childs) > 0){ ?>
+                                 <ul class="dropdown">
+                                     <?php foreach($childs as $child){ ?>
+                                     <li><a href="<?php echo get_category_link($child->term_id); ?>"><?php echo $child->name; ?></a></li>
+                                     <?php } ?>
+                                 </ul>
+                            <?php } ?>
+                        </li>
+                        <li class="divider"></li>
+                        <?php
+                                }
+                            }
+                        ?>
+
+                        <!-- <li class="has-dropdown">
                             <a class="active" href="#">Main Item 1</a>
                             <ul class="dropdown">
                                 <li><label>Section Name</label></li>
@@ -72,7 +95,7 @@
                                 <li><a href="#">See all &rarr;</a></li>
                             </ul>
                         </li>
-                        <li class="divider"></li>
+                        <li class="divider"></li>  -->
                     </ul>
 
                     <ul class="p-menu right">
@@ -82,11 +105,17 @@
                                 <img class="hide-940" src="<?php bloginfo('template_directory'); ?>/images/ic_action_overflow.png" alt="Overflow" />
                             </a>
                             <ul class="dropdown">
-                                <li><label>Fiches</label></li>
-                                <li><a href="#">throrin19</a></li>
-                                <li><a href="#">Fritte7</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Contact</a></li>
+                                <?php
+                                    $pages = get_pages();
+                                    foreach($pages as $page){
+                                ?>
+                                <li>
+                                    <a href="<?php echo get_page_link($page->ID); ?>"><?php echo $page->post_title; ?></a>
+                                </li>
+                                <?php
+
+                                    }
+                                ?>
                             </ul>
                         </li>
                     </ul>
