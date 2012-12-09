@@ -329,7 +329,8 @@ body{ /*background: url("../images/stripe_body.png") repeat;*/background: #f0f0f
 .txt-center{ text-align: center; }
 .ov-auto{ overflow: auto; }
 .relative{ position: relative; }
-
+.thumb{ border: 1px solid #F0F0F0; display: block; width: 100%; height: 140px; vertical-align: middle; overflow: hidden; }
+.thumb > img{ display: block; }
 
 /* -----------------------------------------
    Form and input
@@ -378,6 +379,7 @@ article > h3.title > a{ font-weight: lighter; color: #9C9C9C; }
 article > .infos{ font-weight: normal; color: #9C9C9C; padding: 10px 0; border-top: 1px solid #DFDFDF; margin: 0 -10px !important; }
 article > .infos a{ color: #9C9C9C; font-weight: bold; }
 article > .details{ color: #9C9C9C; font-weight: bold; margin-bottom: 10px !important; }
+article .content{ display: -webkit-box; display: -moz-box; display: box; -webkit-box-align: center; -moz-box-align: center; box-align: center; }
 
 /* -----------------------------------------
   Sidebar

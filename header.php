@@ -17,6 +17,7 @@
 
         <!-- Included CSS Files (Compressed) -->
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/stylesheets/foundation.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/stylesheets/jquery.nailthumb.1.1.min.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/stylesheets/app.css">
 
         <script src="<?php bloginfo('template_directory'); ?>/javascripts/modernizr.foundation.js"></script>

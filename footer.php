@@ -111,10 +111,12 @@
         <script src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.foundation.magellan.js"></script>
 
         -->
-
         <!-- Included JS Files (Compressed) -->
         <script src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.js"></script>
+
         <script src="<?php bloginfo('template_directory'); ?>/javascripts/foundation.min.js"></script>
+
+        <script src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.nailthumb.1.1.min.js"></script>
 
         <!-- Initialize JS Plugins -->
         <script src="<?php bloginfo('template_directory'); ?>/javascripts/app.js"></script>
