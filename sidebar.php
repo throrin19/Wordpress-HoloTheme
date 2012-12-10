@@ -1,8 +1,11 @@
-<?php
-/**
- * Created by JetBrains PhpStorm.
- * User: throrin19
- * Date: 09/12/12
- * Time: 14:58
- * To change this template use File | Settings | File Templates.
- */
+<!-- Sidebar.php -->
+<form class="search" id="searchform" action="<?php bloginfo('url'); ?>/" method="get">
+    <div class="search-box relative">
+        <div class="holo-field-bckg"></div>
+        <i class="ic-action-small ic-action-small-search"></i>
+        <input type="text" id="s" name="s" value="Tapez votre Recherche Ici" onfocus="this.value=''" onblur="this.value='Tapez votre Recherche Ici'">
+        <input type="submit" value="" class="submit ic-action-small ic-action-small-send" id="searchsubmit">
+    </div>
+</form>
+
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?><?php endif; ?>

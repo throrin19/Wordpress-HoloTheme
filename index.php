@@ -6,22 +6,22 @@
             <div class="nine columns" role="content">
                 <!-- début titre recherche/catégorie/... -->
                 <?php if(is_month()) { ?>
-                <div id="archive-title">
+                <div class="archive-title">
                     Browsing articles from "<strong><?php the_time('F, Y') ?></strong>"
                 </div>
                 <?php } ?>
                 <?php if(is_category()) { ?>
-                <div id="archive-title">
+                <div class="archive-title">
                     Browsing articles in "<strong><?php $current_category = single_cat_title("", true); ?></strong>"
                 </div>
                 <?php } ?>
                 <?php if(is_tag()) { ?>
-                <div id="archive-title">
+                <div class="archive-title">
                     Browsing articles tagged with "<strong><?php wp_title('',true,''); ?></strong>"
                 </div>
                 <?php } ?>
                 <?php if(is_author()) { ?>
-                <div id="archive-title">
+                <div class="archive-title">
                     Browsing articles by "<strong><?php wp_title('',true,''); ?></strong>"
                 </div>
                 <?php } ?>
@@ -47,11 +47,11 @@
                         <?php if(has_post_thumbnail()){ ?>
                         <div class="four columns txt-center"><a href="<?php the_permalink() ?>" class="thumb"><?php the_post_thumbnail(); ?></a></div>
                         <div class="eight columns">
-                            <p><?php the_excerpt(); ?></p>
+                            <?php the_excerpt(); ?>
                         </div>
                         <?php }else{ ?>
                         <div class="twelve columns">
-                            <p><?php the_excerpt(); ?></p>
+                            <?php the_excerpt(); ?>
                         </div>
                         <?php } ?>
                     </div>

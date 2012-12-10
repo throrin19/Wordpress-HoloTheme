@@ -380,6 +380,7 @@ article > .infos{ font-weight: normal; color: #9C9C9C; padding: 10px 0; border-t
 article > .infos a{ color: #9C9C9C; font-weight: bold; }
 article > .details{ color: #9C9C9C; font-weight: bold; margin-bottom: 10px !important; }
 article .content{ display: -webkit-box; display: -moz-box; display: box; -webkit-box-align: center; -moz-box-align: center; box-align: center; }
+.archive-title{ margin-top: 10px; padding: 10px; font-style: italic; }
 
 /* -----------------------------------------
   Sidebar
@@ -403,7 +404,7 @@ aside .widget .content ul > li{ list-style: none; padding: 0; border-bottom: 1px
 aside .widget .content ul > li:last-child{ border-bottom: none; }
 aside .widget .content ul > li
 aside .widget .content ul > li > a{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
-aside .widget .content a{ display: block; color: #8C8C8C; font-weight: bold; padding: 10px 10px 10px 15px; }
+aside .widget .content a{ display: block; color: #8C8C8C; font-weight: bold; padding: 10px 10px 10px 15px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 aside .widget .content a:hover{ padding-left: 5px; border-left: 10px solid #33B5E5; }
 aside > div:nth-of-type(1) .content a:hover{ border-left: 10px solid #33B5E5;}
 aside > div:nth-of-type(2) .content a:hover{ border-left: 10px solid #AA66CC;}
@@ -411,8 +412,8 @@ aside > div:nth-of-type(3) .content a:hover{ border-left: 10px solid #99CC00;}
 aside > div:nth-of-type(4) .content a:hover{ border-left: 10px solid #FFBB33;}
 aside > div:nth-of-type(5) .content a:hover{ border-left: 10px solid #FF4444;}
 aside .widget .content a > span{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
-aside .widget .content.small ul > li > a{ font-size: small; }
-aside .widget .content.small ul > li > a > span.small{ font-size: smaller; }
+aside .widget .content .small li > a{ font-size: small; }
+aside .widget .content .small li > a > span.small{ font-size: smaller; }
 aside > form{ margin: 10px 1px; }
 aside > form.search > div{ display: -webkit-box; display: -moz-box; display: box; }
 aside > form.search input[type=text]{ padding: 0; height: 25px; background: none; -webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; border:none; box-shadow: none; margin: 0; }
