@@ -4,62 +4,16 @@
                 <div class="twelve columns">
                     <div class="row">
                         <div class="four columns">
-                            <div class="widget">
-                                <h5 class="title">Messages Populaires</h5>
-                                <div class="content small">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <span>Nexus 4 Review (et un de plus)</span>
-                                                <span class="small">12 commentaire(s)</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>ZF partie 5 : Doctrine</span>
-                                                <span class="small">10 commentaire(s)</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>Nouvelles du front</span>
-                                                <span class="small">3 commentaire(s)</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>ZendX Jquery</span>
-                                                <span class="small">1 commentaire(s)</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(2) ) : ?>
+                            <?php endif; ?>
                         </div>
                         <div class="four columns">
-                            <div class="widget">
-                                <h5 class="title">Archives</h5>
-                                <div class="content">
-                                    <ul>
-                                        <li><a href="#">Novembre 2012</a></li>
-                                        <li><a href="#">Octobre 2012)</a></li>
-                                        <li><a href="#">Septembre 2012</a></li>
-                                        <li><a href="#">Aout 2012</a></li>
-                                        <li><a href="#">Juillet 2012</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(3) ) : ?>
+                            <?php endif; ?>
                         </div>
                         <div class="four columns">
-                            <div class="widget">
-                                <h5 class="title">A propos de l’Auteur</h5>
-                                <div class="content">
-                                    <div class="text">
-                                        <p>Je suis Analyste Développeur chez Goomeo et je suis passioné par tout ce qui touche aux technologies du Web. J'ai commencé par apprendre l'utilisation du Framework Zend et j'ai continué naturellement via Android. Le tout seulement avec les bases acquises en DUT et Licence professionnelle Informatique.</p>
-                                        <p>Vous trouverez donc sur ce site divers choses utiles (ou non) pour répondre à vos problèmes.</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(4) ) : ?>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>

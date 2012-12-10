@@ -16,6 +16,7 @@
         <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 
         <!-- Included CSS Files (Compressed) -->
+        <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/stylesheets/foundation.min.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/stylesheets/jquery.nailthumb.1.1.min.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/stylesheets/app.css">
@@ -66,37 +67,6 @@
                                 }
                             }
                         ?>
-
-                        <!-- <li class="has-dropdown">
-                            <a class="active" href="#">Main Item 1</a>
-                            <ul class="dropdown">
-                                <li><label>Section Name</label></li>
-                                <li><a href="#" class="">Dropdown Level 1</a></li>
-                                <li><a href="#">Dropdown Option</a></li>
-                                <li><a href="#">Dropdown Option</a></li>
-                                <li class="divider"></li>
-                                <li><label>Section Name</label></li>
-                                <li><a href="#">Dropdown Option</a></li>
-                                <li><a href="#">Dropdown Option</a></li>
-                                <li><a href="#">Dropdown Option</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">See all &rarr;</a></li>
-                            </ul>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="#">Main Item 2</a></li>
-                        <li class="divider"></li>
-                        <li class="has-dropdown">
-                            <a href="#">Main Item 3</a>
-                            <ul class="dropdown">
-                                <li><a href="#">Dropdown Option</a></li>
-                                <li><a href="#">Dropdown Option</a></li>
-                                <li><a href="#">Dropdown Option</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">See all &rarr;</a></li>
-                            </ul>
-                        </li>
-                        <li class="divider"></li>  -->
                     </ul>
 
                     <ul class="p-menu right">
@@ -114,7 +84,6 @@
                                     <a href="<?php echo get_page_link($page->ID); ?>"><?php echo $page->post_title; ?></a>
                                 </li>
                                 <?php
-
                                     }
                                 ?>
                             </ul>

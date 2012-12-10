@@ -73,7 +73,11 @@
                 <p>Désolé, mais vous cherchez quelque chose qui n'est pas ici.</p>
                 <?php endif; ?>
 
-
+                <?php
+                    if (function_exists("holo_paginate")) {
+                        holo_paginate();
+                    }
+                ?>
             </div>
             <!-- End Main Content -->
 
