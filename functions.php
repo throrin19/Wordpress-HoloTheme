@@ -227,3 +227,44 @@ function emm_paginate_loop($start, $max, $page = 0) {
     }
     return $output;
 }
+
+
+/*******************************
+THUMBNAIL SUPPORT
+ ********************************/
+
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 180, 160, true );
+
+/*******************************
+CUSTOM COMMENTS
+ ********************************/
+
+function mytheme_comment($comment, $args, $depth) {
+    $GLOBALS['comment'] = $comment; ?>
+<div <?php comment_class('clearfix', "comment"); ?> id="li-comment-<?php comment_ID() ?>" >
+    <div class="avatar">
+        <?php echo get_avatar($comment,$size='38',$default='http://www.gravatar.com/avatar/61a58ec1c1fba116f8424035089b7c71?s=32&d=&r=G' ); ?>
+    </div>
+
+    <div id="comment-<?php comment_ID(); ?>" class="comment-content">
+        <div class="comment-meta commentmetadata clearfix">
+            <?php printf(__('<strong>%s</strong>'), get_comment_author_link()) ?><?php edit_comment_link(__('(Edit)'),'  ','') ?>
+            <span><?php printf(__('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?></span>
+        </div>
+
+        <div class="text">
+            <?php comment_text() ?>
+        </div>
+
+        <?php if ($comment->comment_approved == '0') : ?>
+        <em><?php _e('Your comment is awaiting moderation.') ?></em>
+        <br />
+        <?php endif; ?>
+
+        <div class="reply">
+            <?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+        </div>
+    </div>
+</div>
+<?php }

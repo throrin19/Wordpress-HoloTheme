@@ -101,6 +101,8 @@
             </div>
         </div>
 
+        <?php comments_template(); ?>
+
     </div>
     <!-- End Main Content -->
 
