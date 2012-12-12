@@ -331,11 +331,13 @@ body{ /*background: url("../images/stripe_body.png") repeat;*/background: #f0f0f
 .relative{ position: relative; }
 .thumb{ border: 1px solid #F0F0F0; display: block; width: 100%; height: 140px; vertical-align: middle; overflow: hidden; }
 .thumb > img{ display: block; }
+.inline{ display: inline-block; }
 
 /* -----------------------------------------
    Form and input
 ----------------------------------------- */
-input[type=text], input[type=textarea]{ padding: 0; height: 25px; background: none; -webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; border:none; box-shadow: none; margin: 0; }
+input[type=text], input[type=textarea], input[type=email], input[type=url], textarea{ padding: 5px; height: 25px; background: none; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; border:none; box-shadow: none; margin: 0; }
+textarea{ height: 150px !important; }
 .holo-field{ position: relative; }
 .holo-field-bckg{ bottom: 0; position: absolute; height: 5px; width: 100%; border-left: 1px solid #9C9C9C; border-bottom: 1px solid #9C9C9C; border-right: 1px solid #9C9C9C; }
 button, .holo-btn{  }
@@ -379,7 +381,7 @@ article > h3.title > a{ font-weight: lighter; color: #9C9C9C; }
 article > .infos{ font-weight: normal; color: #9C9C9C; padding: 10px 0; border-top: 1px solid #DFDFDF; margin: 0 -10px !important; }
 article > .infos a{ color: #9C9C9C; font-weight: bold; }
 article > .details{ color: #9C9C9C; font-weight: bold; margin-bottom: 10px !important; }
-article .content{ display: -webkit-box; display: -moz-box; display: box; -webkit-box-align: center; -moz-box-align: center; box-align: center; }
+article .content{ display: -webkit-box; display: -moz-box; display: -ms-box; display: box; -webkit-box-align: center; -moz-box-align: center; box-align: center; }
 .archive-title{ margin-top: 10px; padding: 10px; font-style: italic; }
 article .content h1, article .content h2, article .content h3, article .content h4, article .content h5{ color: #9C9C9C; font-weight: lighter; }
 article .content h1{ font-size: 27px; }
@@ -396,22 +398,25 @@ article .content .error{ color: #FFFFFF; border: 1px solid #FF4444; background-c
 article .content .success{ color: #FFFFFF; border: 1px solid #99CC00; background-color: #99CC00; }
 
 .comments, .credential{ background-color: #FDFDFD; border: 1px solid #DFDFDF; -moz-box-shadow: 0px 3px 3px 0px #DFDFDF; -webkit-box-shadow: 0px 1px 1px 0px #DFDFDF; -o-box-shadow: 0px 1px 1px 0px #DFDFDF; box-shadow: 0px 1px 1px 0px #DFDFDF; filter: progid:DXImageTransform.Microsoft.Shadow(color=#DFDFDF, Direction=180, Strength=1); -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; margin-bottom: 10px; }
-.credential .author{ border-top: 1px solid #DFDFDF; border-bottom: 1px solid #DFDFDF; display: -webkit-box; display: -moz-box; display: box; }
+.credential .author{ border-top: 1px solid #DFDFDF; border-bottom: 1px solid #DFDFDF; display: -webkit-box; display: -moz-box; display: -ms-box; display: box; }
 .credential .author > .picture{ background-color: #F0F0F0; border-right: 1px solid #DFDFDF; }
-.credential .author > .infos{ padding: 5px; -webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; }
+.credential .author > .infos{ padding: 5px; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; }
 .credential .author > .infos h5, .credential h4{ margin-top: 0; }
 .credential h4, .credential h5, .credential h6, .comments h5{ color: #9C9C9C; }
-.credential .connexe > h5, .comments > h5{ padding: 10px 10px 5px; margin: 5px 10px 10px; border-bottom: 2px solid #9C9C9C; }
+.credential .connexe > h5, .comments h5{ padding: 10px 10px 5px; margin: 5px 10px 10px; border-bottom: 2px solid #9C9C9C; }
 .credential .connexe > .row{ margin: 0 -1px; border-left: 1px solid #DFDFDF; }
-.credential .connexe .post{ border-top: 1px solid #DFDFDF; border-right: 1px solid #DFDFDF; display: -webkit-box; display: -moz-box; display: box; padding: 0 !important; height: 75px; }
+.credential .connexe .post{ border-top: 1px solid #DFDFDF; border-right: 1px solid #DFDFDF; display: -webkit-box; display: -moz-box; display: -ms-box; display: box; padding: 0 !important; height: 75px; }
 .credential .connexe .post > .post-thumb{ border-right: 1px solid #DFDFDF; background-color: #F0F0F0; }
-.credential .connexe .post > .link{ -webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; padding: 10px; }
+.credential .connexe .post > .link{ -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; padding: 10px; }
 .credential .connexe .post > .link > h5{ margin: 0; }
 
-.comments .comment, .comments .pingback{ display: -webkit-box; display: -moz-box; display: box; border-top: 1px solid #DFDFDF; }
+.comments .comment, .comments .pingback{ display: -webkit-box; display: -moz-box; display: -ms-box; display: box; border-top: 1px solid #DFDFDF; }
 .comments .avatar{ width: 38px; border-right: 1px solid #DFDFDF; background-color: #F0F0F0; }
-.comments .comment-content{ -webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; padding: 5px; }
+.comments .comment-content{ -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; padding: 5px; }
 .comments .commentlist{ border-bottom: 1px solid #DFDFDF; }
+.comments form{ padding: 10px 10px 0; margin-bottom: 0; }
+.comments input, .comments textarea{ box-sizing: border-box; margin-bottom: 10px; }
+.comments form .row{ margin-bottom: 5px; }
 
 /* -----------------------------------------
   Sidebar
@@ -446,8 +451,8 @@ aside .widget .content a > span{ overflow: hidden; white-space: nowrap; text-ove
 aside .widget .content .small li > a{ font-size: small; }
 aside .widget .content .small li > a > span.small{ font-size: smaller; }
 aside > form{ margin: 10px 1px; }
-aside > form.search > div{ display: -webkit-box; display: -moz-box; display: box; }
-aside > form.search input[type=text]{ padding: 0; height: 25px; background: none; -webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; border:none; box-shadow: none; margin: 0; }
+aside > form.search > div{ display: -webkit-box; display: -moz-box; display: -ms-box; display: box; }
+aside > form.search input[type=text]{ padding: 0; height: 25px; background: none; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; border:none; box-shadow: none; margin: 0; }
 aside > form.search input[type=text]:hover{ color: #33b5e5; }
 aside > form.search input[type=submit]{ border:none; box-shadow: none; cursor: pointer; }
 
