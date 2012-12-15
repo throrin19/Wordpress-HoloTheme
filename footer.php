@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="twelve columns">
                     <p class="site-info">
-                        Copyright © 2009 - 2012 Throrin's Studio • Optimisé Chrome et Internet Explorer 9 • Responsive WebDesign
+                        Copyright © 2009 - 2012 Throrin's Studio • Optimisé Webkit • Responsive WebDesign
                     </p>
 
                 </div>
@@ -68,7 +68,7 @@
         <!-- Included JS Files (Compressed) -->
         <script src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.js"></script>
 
-        <script src="<?php bloginfo('template_directory'); ?>/javascripts/flexie.js"></script>
+        <!-- <script src="<?php bloginfo('template_directory'); ?>/javascripts/flexie.js"></script>  -->
 
         <script src="<?php bloginfo('template_directory'); ?>/javascripts/foundation.min.js"></script>
 

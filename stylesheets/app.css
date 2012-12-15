@@ -398,21 +398,21 @@ article .content .error{ color: #FFFFFF; border: 1px solid #FF4444; background-c
 article .content .success{ color: #FFFFFF; border: 1px solid #99CC00; background-color: #99CC00; }
 
 .comments, .credential{ background-color: #FDFDFD; border: 1px solid #DFDFDF; -moz-box-shadow: 0px 3px 3px 0px #DFDFDF; -webkit-box-shadow: 0px 1px 1px 0px #DFDFDF; -o-box-shadow: 0px 1px 1px 0px #DFDFDF; box-shadow: 0px 1px 1px 0px #DFDFDF; filter: progid:DXImageTransform.Microsoft.Shadow(color=#DFDFDF, Direction=180, Strength=1); -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; margin-bottom: 10px; }
-.credential .author{ border-top: 1px solid #DFDFDF; border-bottom: 1px solid #DFDFDF; display: -webkit-box; display: -moz-box; display: -ms-box; display: box; }
-.credential .author > .picture{ background-color: #F0F0F0; border-right: 1px solid #DFDFDF; }
-.credential .author > .infos{ padding: 5px; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; }
+.credential .author{ border-top: 1px solid #DFDFDF; border-bottom: 1px solid #DFDFDF; background-color: #F0F0F0; overflow: auto; }
+.credential .author > .picture{ float: left; width: 60px; }
+.credential .author > .infos{ background-color: #FFFFFF; border-left:  1px solid #DFDFDF; padding: 5px; margin-left: 60px; }
 .credential .author > .infos h5, .credential h4{ margin-top: 0; }
 .credential h4, .credential h5, .credential h6, .comments h5{ color: #9C9C9C; }
 .credential .connexe > h5, .comments h5{ padding: 10px 10px 5px; margin: 5px 10px 10px; border-bottom: 2px solid #9C9C9C; }
 .credential .connexe > .row{ margin: 0 -1px; border-left: 1px solid #DFDFDF; }
-.credential .connexe .post{ border-top: 1px solid #DFDFDF; border-right: 1px solid #DFDFDF; display: -webkit-box; display: -moz-box; display: -ms-box; display: box; padding: 0 !important; height: 75px; }
-.credential .connexe .post > .post-thumb{ border-right: 1px solid #DFDFDF; background-color: #F0F0F0; }
-.credential .connexe .post > .link{ -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; padding: 10px; }
+.credential .connexe .post{ padding:0 !important; position: relative; border-top: 1px solid #DFDFDF; border-right: 1px solid #DFDFDF; height: 75px; background-color: #F0F0F0; }
+.credential .connexe .post > .post-thumb{ width: 60px; float: left;  }
+.credential .connexe .post > .link{ margin-left: 60px; height: 75px; border-left: 1px solid #DFDFDF; padding: 10px; background-color: #FFFFFF; }
 .credential .connexe .post > .link > h5{ margin: 0; }
 
-.comments .comment, .comments .pingback{ display: -webkit-box; display: -moz-box; display: -ms-box; display: box; border-top: 1px solid #DFDFDF; }
-.comments .avatar{ width: 38px; border-right: 1px solid #DFDFDF; background-color: #F0F0F0; }
-.comments .comment-content{ -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; padding: 5px; }
+.comments .comment, .comments .pingback{ position: relative; min-height: 50px; border-top: 1px solid #DFDFDF; background-color: #F0F0F0; }
+.comments .avatar{ width: 38px; float: left; }
+.comments .comment-content{ padding: 5px; border-left: 1px solid #DFDFDF; background-color: #FFFFFF; margin-left: 38px; min-height: 50px; }
 .comments .commentlist{ border-bottom: 1px solid #DFDFDF; }
 .comments form{ padding: 10px 10px 0; margin-bottom: 0; }
 .comments input, .comments textarea{ box-sizing: border-box; margin-bottom: 10px; }
@@ -455,6 +455,10 @@ aside > form.search > div{ display: -webkit-box; display: -moz-box; display: -ms
 aside > form.search input[type=text]{ padding: 0; height: 25px; background: none; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; border:none; box-shadow: none; margin: 0; }
 aside > form.search input[type=text]:hover{ color: #33b5e5; }
 aside > form.search input[type=submit]{ border:none; box-shadow: none; cursor: pointer; }
+.search-box{ height: 25px; }
+.search-box > .ic-action-small-search{ position: absolute; top: 0; left: 0; }
+.search-box > input[type=text]{ width: auto; position: absolute; top: 0; left: 23px; right: 23px; }
+.search-box > .ic-action-small-send{ position: absolute; top: 0; right: 0; }
 
 /* ------------------------------------------
   Footer / Widgets
