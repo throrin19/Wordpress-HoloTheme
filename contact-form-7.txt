@@ -1,0 +1,27 @@
+Voici le code pour avoir le bon design dans contact-form-7 :
+
+<p>
+     Vous avez des questions? Une demande ou vous voulez simplement prendre contact avec moi?<br />Alors ce formulaire est fait pour vous.
+</p>
+
+<div class="holo-field">
+    <div class="holo-field-bckg"></div>
+    <input type="text" name="your-name" value="" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Votre Nom (obligatoire)" />
+</div>
+
+<div class="holo-field">
+    <div class="holo-field-bckg"></div>
+    <input type="text" name="your-email" value="" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" placeholder="Votre E-Mail (obligatoire)">
+</div>
+
+<div class="holo-field">
+    <div class="holo-field-bckg"></div>
+    <input type="text" name="your-subject" value="" class="wpcf7-form-control wpcf7-text" placeholder="Sujet">
+</div>
+
+<div class="holo-field">
+    <div class="holo-field-bckg"></div>
+    <textarea name="your-message" class="wpcf7-form-control  wpcf7-textarea wpcf7-validates-as-required" placeholder="Votre Message"></textarea>
+</div>
+
+<p>[submit class:secondary class:button "Envoyer"]</p>

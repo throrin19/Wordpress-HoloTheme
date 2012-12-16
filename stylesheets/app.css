@@ -400,7 +400,7 @@ article .content .success{ color: #FFFFFF; border: 1px solid #99CC00; background
 .comments, .credential{ background-color: #FDFDFD; border: 1px solid #DFDFDF; -moz-box-shadow: 0px 3px 3px 0px #DFDFDF; -webkit-box-shadow: 0px 1px 1px 0px #DFDFDF; -o-box-shadow: 0px 1px 1px 0px #DFDFDF; box-shadow: 0px 1px 1px 0px #DFDFDF; filter: progid:DXImageTransform.Microsoft.Shadow(color=#DFDFDF, Direction=180, Strength=1); -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; margin-bottom: 10px; }
 .credential .author{ border-top: 1px solid #DFDFDF; border-bottom: 1px solid #DFDFDF; background-color: #F0F0F0; overflow: auto; }
 .credential .author > .picture{ float: left; width: 60px; }
-.credential .author > .infos{ background-color: #FFFFFF; border-left:  1px solid #DFDFDF; padding: 5px; margin-left: 60px; }
+.credential .author > .infos{ background-color: #FFFFFF; border-left:  1px solid #DFDFDF; padding: 5px; margin-left: 60px; min-height: 70px; }
 .credential .author > .infos h5, .credential h4{ margin-top: 0; }
 .credential h4, .credential h5, .credential h6, .comments h5{ color: #9C9C9C; }
 .credential .connexe > h5, .comments h5{ padding: 10px 10px 5px; margin: 5px 10px 10px; border-bottom: 2px solid #9C9C9C; }
@@ -444,12 +444,12 @@ aside .widget .content ul > li:last-child{ border-bottom: none; }
 aside .widget .content ul > li
 aside .widget .content ul > li > a{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
 aside .widget .content a{ display: block; color: #8C8C8C; font-weight: bold; padding: 10px 10px 10px 15px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-aside .widget .content a:hover{ padding-left: 5px; border-left: 10px solid #33B5E5; }
-aside > div:nth-of-type(1) .content a:hover, aside > div:nth-of-type(6) .content a:hover{ border-left: 10px solid #33B5E5;}
-aside > div:nth-of-type(2) .content a:hover, aside > div:nth-of-type(7) .content a:hover{ border-left: 10px solid #AA66CC;}
-aside > div:nth-of-type(3) .content a:hover, aside > div:nth-of-type(8) .content a:hover{ border-left: 10px solid #99CC00;}
-aside > div:nth-of-type(4) .content a:hover, aside > div:nth-of-type(9) .content a:hover{ border-left: 10px solid #FFBB33;}
-aside > div:nth-of-type(5) .content a:hover, aside > div:nth-of-type(10) .content a:hover{ border-left: 10px solid #FF4444;}
+aside .widget .content a:hover{ padding-left: 10px; border-left: 5px solid #33B5E5; }
+aside > div:nth-of-type(1) .content a:hover, aside > div:nth-of-type(6) .content a:hover{ border-left: 5px solid #33B5E5;}
+aside > div:nth-of-type(2) .content a:hover, aside > div:nth-of-type(7) .content a:hover{ border-left: 5px solid #AA66CC;}
+aside > div:nth-of-type(3) .content a:hover, aside > div:nth-of-type(8) .content a:hover{ border-left: 5px solid #99CC00;}
+aside > div:nth-of-type(4) .content a:hover, aside > div:nth-of-type(9) .content a:hover{ border-left: 5px solid #FFBB33;}
+aside > div:nth-of-type(5) .content a:hover, aside > div:nth-of-type(10) .content a:hover{ border-left: 5px solid #FF4444;}
 aside .widget .content a > span{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
 aside .widget .content .small li > a{ font-size: small; }
 aside .widget .content .small li > a > span.small{ font-size: smaller; }
@@ -469,12 +469,12 @@ aside > form.search input[type=submit]{ border:none; box-shadow: none; cursor: p
 .bottom-bar{ color: #FFFFFF; margin: 0; padding: 10px 10px; width: 100%; }
 footer .widget{ margin: 10px 0; }
 footer .widget .title{ text-align: left; margin: 0; padding: 10px; }
-footer div:nth-of-type(1) .title{ color: #9933CC; border-bottom: 2px solid #9933CC; }
+footer div .title, footer div:nth-of-type(1) .title{ color: #9933CC; border-bottom: 2px solid #9933CC; }
 footer div:nth-of-type(2) .title{ color: #FF8800; border-bottom: 2px solid #FF8800; }
 footer div:nth-of-type(3) .title{ color: #CC0000; border-bottom: 2px solid #CC0000; }
-footer div:nth-of-type(1) .content a:hover{ padding-left: 5px; border-left: 10px solid #9933CC; }
-footer div:nth-of-type(2) .content a:hover{ padding-left: 5px; border-left: 10px solid #FF8800; }
-footer div:nth-of-type(3) .content a:hover{ padding-left: 5px; border-left: 10px solid #CC0000; }
+footer div .content a:hover, footer div:nth-of-type(1) .content a:hover{ padding-left: 10px; border-left: 5px solid #9933CC; }
+footer div:nth-of-type(2) .content a:hover{ padding-left: 10px; border-left: 5px solid #FF8800; }
+footer div:nth-of-type(3) .content a:hover{ padding-left: 10px; border-left: 5px solid #CC0000; }
 footer .widget .content ul > li{ display: block; list-style: none; border-bottom: 1px solid #9C9C9C; }
 footer .widget .content a > span{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
 footer .widget .small li > a{ font-size: small; }

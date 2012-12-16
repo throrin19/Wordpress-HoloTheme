@@ -274,3 +274,162 @@ function mytheme_comment($comment, $args, $depth) {
     </div>
 </div>
 <?php }
+
+
+/*******************************
+THEME OPTIONS PAGE
+ ********************************/
+
+add_action('admin_menu', 'holo_theme_page');
+function holo_theme_page ()
+{
+    if ( count($_POST) > 0 && isset($_POST['holo_settings']) )
+    {
+        $options = array ('logo_img', 'logo_alt','linkedin_link','twitter_link','gplus_link','github_link','playstore_link','keywords','description','analytics', 'copyright');
+
+        foreach ( $options as $opt )
+        {
+            delete_option ( 'holo_'.$opt, $_POST[$opt] );
+            add_option ( 'holo_'.$opt, $_POST[$opt] );
+        }
+
+    }
+    add_menu_page(__('Holo Options'), __('Holo Options'), 'edit_themes', basename(__FILE__), 'holo_settings');
+    add_submenu_page(__('Holo Options'), __('Holo Options'), 'edit_themes', basename(__FILE__), 'holo_settings');
+}
+function holo_settings()
+{?>
+<div class="wrap">
+    <h2>holo Options Panel</h2>
+
+    <form method="post" action="">
+        <fieldset style="border:1px solid #ddd; padding-bottom:20px; margin-top:20px;">
+            <legend style="margin-left:5px; padding:0 5px;color:#2481C6; text-transform:uppercase;"><strong>General Settings</strong></legend>
+            <table class="form-table">
+                <!-- General settings -->
+
+                <tr valign="top">
+                    <th scope="row"><label for="logo_img">Change logo (full path to logo image)</label></th>
+                    <td>
+                        <input name="logo_img" type="text" id="logo_img" value="<?php echo get_option('holo_logo_img'); ?>" class="regular-text" /><br />
+                        <em>current logo:</em> <br /> <img src="<?php echo get_option('holo_logo_img'); ?>" alt="<?php echo get_option('holo_logo_alt'); ?>" />
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="logo_alt">Logo ALT Text</label></th>
+                    <td>
+                        <input name="logo_alt" type="text" id="logo_alt" value="<?php echo get_option('holo_logo_alt'); ?>" class="regular-text" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <p class="submit">
+            <input type="submit" name="Submit" class="button-primary" value="Save Changes" />
+            <input type="hidden" name="holo_settings" value="save" style="display:none;" />
+        </p>
+
+        <fieldset style="border:1px solid #ddd; padding-bottom:20px; margin-top:20px;">
+            <legend style="margin-left:5px; padding:0 5px; color:#2481C6;text-transform:uppercase;"><strong>Social Links</strong></legend>
+            <table class="form-table">
+                <tr valign="top">
+                    <th scope="row"><label for="linkedin_link">LinknedIn link</label></th>
+                    <td>
+                        <input name="linkedin_link" type="text" id="linkedin_link" value="<?php echo get_option('holo_linkedin_link'); ?>" class="regular-text" />
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="linkedin_link">Twitter link</label></th>
+                    <td>
+                        <input name="twitter_link" type="text" id="twitter_link" value="<?php echo get_option('holo_twitter_link'); ?>" class="regular-text" />
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="linkedin_link">Google+ link</label></th>
+                    <td>
+                        <input name="gplus_link" type="text" id="gplus_link" value="<?php echo get_option('holo_gplus_link'); ?>" class="regular-text" />
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="linkedin_link">Github link</label></th>
+                    <td>
+                        <input name="github_link" type="text" id="github_link" value="<?php echo get_option('holo_github_link'); ?>" class="regular-text" />
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="linkedin_link">Play Store Editor link</label></th>
+                    <td>
+                        <input name="playstore_link" type="text" id="playstore_link" value="<?php echo get_option('holo_playstore_link'); ?>" class="regular-text" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <p class="submit">
+            <input type="submit" name="Submit" class="button-primary" value="Save Changes" />
+            <input type="hidden" name="holo_settings" value="save" style="display:none;" />
+        </p>
+
+        <fieldset style="border:1px solid #ddd; padding-bottom:20px; margin-top:20px;">
+            <legend style="margin-left:5px; padding:0 5px; color:#2481C6;text-transform:uppercase;"><strong>Footer</strong></legend>
+            <table class="form-table">
+                <tr>
+                    <th><label for="copyright">Copyright Text</label></th>
+                    <td>
+                        <textarea name="copyright" id="copyright" rows="4" cols="70" style="font-size:11px;"><?php echo stripslashes(get_option('holo_copyright')); ?></textarea><br />
+                        <em>You can use HTML for links etc.</em>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <p class="submit">
+            <input type="submit" name="Submit" class="button-primary" value="Save Changes" />
+            <input type="hidden" name="holo_settings" value="save" style="display:none;" />
+        </p>
+
+        <fieldset style="border:1px solid #ddd; padding-bottom:20px; margin-top:20px;">
+            <legend style="margin-left:5px; padding:0 5px; color:#2481C6;text-transform:uppercase;"><strong>SEO</strong></legend>
+            <table class="form-table">
+                <tr>
+                    <th><label for="keywords">Meta Keywords</label></th>
+                    <td>
+                        <textarea name="keywords" id="keywords" rows="7" cols="70" style="font-size:11px;"><?php echo get_option('holo_keywords'); ?></textarea><br />
+                        <em>Keywords comma separated</em>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="description">Meta Description</label></th>
+                    <td>
+                        <textarea name="description" id="description" rows="7" cols="70" style="font-size:11px;"><?php echo get_option('holo_description'); ?></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="ads">Google Analytics code:</label></th>
+                    <td>
+                        <textarea name="analytics" id="analytics" rows="7" cols="70" style="font-size:11px;"><?php echo stripslashes(get_option('holo_analytics')); ?></textarea>
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+        <p class="submit">
+            <input type="submit" name="Submit" class="button-primary" value="Save Changes" />
+            <input type="hidden" name="holo_settings" value="save" style="display:none;" />
+        </p>
+    </form>
+</div>
+<?php }
+/*******************************
+CONTACT FORM
+ ********************************/
+
+function hexstr($hexstr) {
+    $hexstr = str_replace(' ', '', $hexstr);
+    $hexstr = str_replace('\x', '', $hexstr);
+    $retstr = pack('H*', $hexstr);
+    return $retstr;
+}
+
+function strhex($string) {
+    $hexstr = unpack('H*', $string);
+    return array_shift($hexstr);
+}

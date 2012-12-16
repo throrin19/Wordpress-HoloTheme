@@ -7,8 +7,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-        <meta name="keywords" content="<?php echo get_option('alltuts_keywords'); ?>" />
-        <meta name="description" content="<?php echo get_option('alltuts_description'); ?>" />
+        <meta name="keywords" content="<?php echo get_option('holo_keywords'); ?>" />
+        <meta name="description" content="<?php echo get_option('holo_description'); ?>" />
 
         <!-- Set the viewport width to device width for mobile -->
         <meta name="viewport" content="width=device-width" />
@@ -99,18 +99,28 @@
         <div class="row">
             <div class="nine columns title-logo">
                 <a href="<?php bloginfo('url'); ?>/">
-                    <img src="http://placehold.it/550x100&text=[img]" alt="">
+                    <img src="<?php echo get_option('holo_logo_img'); ?>" alt="<?php echo get_option('holo_logo_alt'); ?>" />
                 </a>
                 <br>
                 <span><?php echo get_settings('blogdescription');?></span>
             </div>
             <div class="three columns socials-buttons">
                 <a class="ic-btn ic-action ic-action-feed" href="<?php bloginfo('rss2_url'); ?>"></a>
-                <a class="ic-btn ic-action ic-action-twitter" href="#"></a>
-                <a class="ic-btn ic-action ic-action-linkedin" href="#"></a>
-                <a class="ic-btn ic-action ic-action-gplus" href="#"></a>
-                <a class="ic-btn ic-action ic-action-github" href="#"></a>
-                <a class="ic-btn ic-action ic-action-google-play" href="#"></a>
+                <?php if(get_option('holo_twitter_link')!=""){ ?>
+                <a class="ic-btn ic-action ic-action-twitter" href="<?php echo get_option('holo_twitter_link'); ?>"></a>
+                <?php } ?>
+                <?php if(get_option('holo_linkedin_link')!=""){ ?>
+                <a class="ic-btn ic-action ic-action-linkedin" href="<?php echo get_option('holo_linkedin_link'); ?>"></a>
+                <?php } ?>
+                <?php if(get_option('holo_gplus_link')!=""){ ?>
+                <a class="ic-btn ic-action ic-action-gplus" href="<?php echo get_option('holo_gplus_link'); ?>"></a>
+                <?php } ?>
+                <?php if(get_option('holo_github_link')!=""){ ?>
+                <a class="ic-btn ic-action ic-action-github" href="<?php echo get_option('holo_github_link'); ?>"></a>
+                <?php } ?>
+                <?php if(get_option('holo_playstore_link')!=""){ ?>
+                <a class="ic-btn ic-action ic-action-google-play" href="#<?php echo get_option('holo_playstore_link'); ?>"></a>
+                <?php } ?>
             </div>
         </div>
     </div>
