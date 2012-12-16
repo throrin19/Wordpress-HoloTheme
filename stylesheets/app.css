@@ -332,6 +332,7 @@ body{ /*background: url("../images/stripe_body.png") repeat;*/background: #f0f0f
 .thumb{ border: 1px solid #F0F0F0; display: block; width: 100%; height: 140px; vertical-align: middle; overflow: hidden; }
 .thumb > img{ display: block; }
 .inline{ display: inline-block; }
+#colorbox, #colorbox:before, #colorbox:after, #cboxWrapper, #cboxWrapper:after, #cboxWrapper:before, #cboxContent, #cboxContent:after, #cboxContent:before, #cboxLoadedContent, #cboxLoadedContent:after, #cboxLoadedContent:before, .cboxPhoto, .cboxPhoto:after, .cboxPhoto:before{ box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; }
 
 /* -----------------------------------------
    Form and input

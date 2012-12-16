@@ -21,7 +21,11 @@
             <div class="row">
                 <div class="twelve columns">
                     <p class="site-info">
-                        Copyright © 2009 - 2012 Throrin's Studio • Optimisé Webkit • Responsive WebDesign
+                        <?php if (get_option('holo_copyright') <> ""){
+                            echo stripslashes(stripslashes(get_option('holo_copyright')));
+                        }else{
+                            echo 'Copyright © 2009 - 2012 Throrin\'s Studio • Optimisé Webkit • Responsive WebDesign';
+                        }?>
                     </p>
 
                 </div>
@@ -77,6 +81,9 @@
         <!-- Initialize JS Plugins -->
         <script src="<?php bloginfo('template_directory'); ?>/javascripts/app.js"></script>
 
+        <?php if (get_option('holo_analytics') <> "") {
+            echo stripslashes(stripslashes(get_option('holo_analytics')));
+        } ?>
         <?php wp_footer(); ?>
     </body>
 </html>

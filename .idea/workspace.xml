@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51ea6184-04e2-4739-8373-1d9042437992" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/throrinstudio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact-form-7.txt" />
+    <list default="true" id="51ea6184-04e2-4739-8373-1d9042437992" name="Default" comment="Ajout des options du thème dans la partie admin&#10;Rattachement du logo&#10;Rattachement des icônes sociaux&#10;Design Contact-Form-7&#10;Modification des commentaires&#10;Changement minime sur le design pour le rendre plus sobre">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments.php" afterPath="$PROJECT_DIR$/comments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
     </list>
     <ignored path="HoloTheme.iws" />
@@ -28,10 +24,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="402" column="140" selection-start="34970" selection-end="34970" vertical-scroll-proportion="0.0">
+            <state line="330" column="54" selection-start="28419" selection-end="28419" vertical-scroll-proportion="1.0977012">
               <folding />
             </state>
           </provider>
@@ -50,7 +46,22 @@
         <entry file="file://$PROJECT_DIR$/comments.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="82" column="10" selection-start="3461" selection-end="3461" vertical-scroll-proportion="-23.307692">
-              <folding />
+              <folding>
+                <marker date="1355675605397" expanded="true" signature="461:3450" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="504:3276" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="672:752" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="1152:3194" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="1519:1886" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="1633:1867" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="1923:2342" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="2036:2323" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="2380:2671" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="2487:2652" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="2738:2936" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="2953:3118" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="3525:3692" placeholder="..." />
+                <marker date="1355675605397" expanded="true" signature="3593:3677" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-form-7.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contact-form-7.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact-form-7.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="54" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.508046">
+            <state line="26" column="54" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,23 +93,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-14.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="164" selection-start="3419" selection-end="3419" vertical-scroll-proportion="-22.5">
-              <folding>
-                <marker date="1355576995780" expanded="true" signature="58:1242" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="88:933" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="133:914" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="171:891" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="222:402" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="453:633" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="684:864" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="963:1224" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="1008:1205" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="1050:1181" placeholder="..." />
-                <marker date="1355576995780" expanded="true" signature="1335:3166" placeholder="..." />
-              </folding>
+            <state line="69" column="38" selection-start="3391" selection-end="3391" vertical-scroll-proportion="-16.615385">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,14 +132,14 @@
         <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/sidebar.php" />
         <option value="$PROJECT_DIR$/javascripts/flexie.js" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/single.php" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/comments.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/contact-form-7.txt" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/stylesheets/app.css" />
       </list>
     </option>
   </component>
@@ -211,6 +219,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HoloTheme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HoloTheme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -237,9 +259,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\wordpress\wp-content\themes\HoloTheme\images" />
+      <recent name="C:\wamp\www\wordpress\wp-content\themes\HoloTheme\stylesheets" />
       <recent name="C:\wamp\www\wordpress\wp-content\themes\HoloTheme\javascripts" />
       <recent name="C:\wamp\www\wordpress\wp-content\themes\HoloTheme" />
-      <recent name="C:\wamp\www\wordpress\wp-content\themes\HoloTheme\stylesheets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\wordpress\wp-content\themes\HoloTheme\javascripts" />
@@ -362,18 +384,23 @@
       <created>1355663160890</created>
       <updated>1355663160890</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Ajout des options du thème dans la partie admin&#10;Rattachement du logo&#10;Rattachement des icônes sociaux&#10;Design Contact-Form-7&#10;Modification des commentaires&#10;Changement minime sur le design pour le rendre plus sobre">
+      <created>1355676497360</created>
+      <updated>1355676497360</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30469584" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30469584" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -383,7 +410,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -424,7 +450,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalisation design des commetaires" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des options du thème dans la partie admin&#10;Rattachement du logo&#10;Rattachement des icônes sociaux&#10;Design Contact-Form-7&#10;Modification des commentaires&#10;Changement minime sur le design pour le rendre plus sobre" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -456,21 +482,12 @@
     <MESSAGE value="Avancement design des commentaires&#10;Commencement debug IE&#10;Rajout library flexie" />
     <MESSAGE value="Compatibilité fll IE.&#10;Suppression des dflexiblesbox" />
     <MESSAGE value="Finalisation design des commetaires" />
+    <MESSAGE value="Ajout des options du thème dans la partie admin&#10;Rattachement du logo&#10;Rattachement des icônes sociaux&#10;Design Contact-Form-7&#10;Modification des commentaires&#10;Changement minime sur le design pour le rendre plus sobre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="375" selection-end="375" vertical-scroll-proportion="-7.8461537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="1" selection-start="953" selection-end="953" vertical-scroll-proportion="0.9614949" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="37" selection-start="0" selection-end="4026" vertical-scroll-proportion="-23.807692" />
@@ -494,20 +511,6 @@
     <entry file="file://$PROJECT_DIR$/javascripts/foundation.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/foundation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="11" selection-start="837" selection-end="847" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="71" selection-start="4829" selection-end="4829" vertical-scroll-proportion="0.26270136">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
@@ -534,32 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="164" selection-start="3419" selection-end="3419" vertical-scroll-proportion="-22.5">
-          <folding>
-            <marker date="1355576995780" expanded="true" signature="58:1242" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="88:933" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="133:914" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="171:891" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="222:402" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="453:633" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="684:864" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="963:1224" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="1008:1205" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="1050:1181" placeholder="..." />
-            <marker date="1355576995780" expanded="true" signature="1335:3166" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="402" column="140" selection-start="34970" selection-end="34970" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/single.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="31" selection-start="4361" selection-end="4378" vertical-scroll-proportion="-21.346153">
@@ -570,7 +547,22 @@
     <entry file="file://$PROJECT_DIR$/comments.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="10" selection-start="3461" selection-end="3461" vertical-scroll-proportion="-23.307692">
-          <folding />
+          <folding>
+            <marker date="1355675605397" expanded="true" signature="461:3450" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="504:3276" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="672:752" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="1152:3194" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="1519:1886" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="1633:1867" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="1923:2342" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="2036:2323" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="2380:2671" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="2487:2652" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="2738:2936" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="2953:3118" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="3525:3692" placeholder="..." />
+            <marker date="1355675605397" expanded="true" signature="3593:3677" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -583,7 +575,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact-form-7.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="54" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.508046">
+        <state line="26" column="54" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="11" selection-start="837" selection-end="847" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="38" selection-start="3391" selection-end="3391" vertical-scroll-proportion="-16.615385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="330" column="54" selection-start="28419" selection-end="28419" vertical-scroll-proportion="1.0977012">
           <folding />
         </state>
       </provider>
