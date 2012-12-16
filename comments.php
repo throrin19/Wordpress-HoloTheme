@@ -14,7 +14,7 @@
 <!-- You can start editing here. -->
 <?php if ('open' == $post->comment_status) : ?>
 
-    <div id="respond" class="comments">
+    <div id="respond" class="comments" name="comments">
 
         <h5 id="commentsForm"><?php comment_form_title( 'Laisser un commentaire', 'Laisser un commentaire à %s' ); ?></h5>
 
