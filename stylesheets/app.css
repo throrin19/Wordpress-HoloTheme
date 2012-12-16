@@ -417,6 +417,9 @@ article .content .success{ color: #FFFFFF; border: 1px solid #99CC00; background
 .comments form{ padding: 10px 10px 0; margin-bottom: 0; }
 .comments input, .comments textarea{ box-sizing: border-box; margin-bottom: 10px; }
 .comments form .row{ margin-bottom: 5px; }
+.comment .row{ margin: 0; }
+.comment .row .columns{ padding-left: 0; }
+
 
 /* -----------------------------------------
   Sidebar
@@ -501,7 +504,7 @@ footer .widget .textwidget{ padding: 10px; }
     .socials-buttons{ padding-left: 15px; padding-right: 15px; }
     .show-940{ display: inherit !important; }
     .hide-940{ display: none !important; }
-    article > .infos .txt-right, article > .details .txt-right{ text-align: left; }
+    article > .infos .txt-right, article > .details .txt-right, .comment .row .txt-right{ text-align: left; }
     aside{ padding: 0 15px !important; }
     .p-menu > li:not(.name) > a:hover, .p-menu > li:not(.name).active > a:hover { padding-left: 18.5px !important; border-bottom: none; border-left: 4px solid #0099CC; }
     .p-menu > li:not(.name):nth-of-type(2) > a:hover, .p-menu > li:not(.name):nth-of-type(2) > .active { padding-left: 18.5px !important; border-bottom: none;  border-left: 4px solid #0099CC; }

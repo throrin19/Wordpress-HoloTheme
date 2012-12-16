@@ -248,9 +248,15 @@ function mytheme_comment($comment, $args, $depth) {
     </div>
 
     <div id="comment-<?php comment_ID(); ?>" class="comment-content">
-        <div class="comment-meta commentmetadata clearfix">
-            <?php printf(__('<strong>%s</strong>'), get_comment_author_link()) ?><?php edit_comment_link(__('(Edit)'),'  ','') ?>
-            <span><?php printf(__('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?></span>
+        <div class="comment-meta commentmetadata clearfix row">
+            <div class="six columns">
+                <i class="ic-action-small ic-action-small-user"></i>
+                <?php printf(__('<strong>%s</strong>'), get_comment_author_link()) ?><?php edit_comment_link(__('(Edit)'),'  ','') ?>
+            </div>
+            <div class="six columns txt-right">
+                <i class="ic-action-small ic-action-small-calendar-day"></i>
+                <span><?php printf(__('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?></span>
+            </div>
         </div>
 
         <div class="text">

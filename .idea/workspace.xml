@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="51ea6184-04e2-4739-8373-1d9042437992" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single.php" afterPath="$PROJECT_DIR$/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
     </list>
     <ignored path="HoloTheme.iws" />
@@ -25,10 +24,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="414" column="137" selection-start="36075" selection-end="36075" vertical-scroll-proportion="0.53103447">
+            <state line="506" column="88" selection-start="42795" selection-end="42795" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foundation.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/foundation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="11" selection-start="837" selection-end="847" vertical-scroll-proportion="-11.24">
               <folding />
             </state>
           </provider>
@@ -37,34 +45,16 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="164" selection-start="3419" selection-end="3419" vertical-scroll-proportion="-24.461538">
+            <state line="71" column="164" selection-start="3419" selection-end="3419" vertical-scroll-proportion="-22.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/single.php">
+      <file leaf-file-name="functions.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="35" selection-start="1908" selection-end="1915" vertical-scroll-proportion="-20.038462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="43" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comments.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comments.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="14" selection-start="3710" selection-end="3710" vertical-scroll-proportion="0.0">
+            <state line="249" column="20" selection-start="8579" selection-end="8586" vertical-scroll-proportion="0.4749125">
               <folding />
             </state>
           </provider>
@@ -73,7 +63,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1542" selection-end="1542" vertical-scroll-proportion="-15.692307">
+            <state line="24" column="0" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,13 +90,13 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/page.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/sidebar.php" />
         <option value="$PROJECT_DIR$/comments.php" />
         <option value="$PROJECT_DIR$/javascripts/flexie.js" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/single.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/stylesheets/app.css" />
       </list>
     </option>
@@ -229,14 +219,14 @@
       <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -316,7 +306,11 @@
       <created>1355351514369</created>
       <updated>1355351514369</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Compatibilité fll IE.&#10;Suppression des dflexiblesbox">
+      <created>1355588077528</created>
+      <updated>1355588077528</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -327,7 +321,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29829243" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30149412" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -378,7 +372,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avancement design des commentaires&#10;Commencement debug IE&#10;Rajout library flexie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compatibilité fll IE.&#10;Suppression des dflexiblesbox" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -408,6 +402,7 @@
     <MESSAGE value="mise en place des pages&#10;mise en place des single&#10;rajout du cadre à propos de l'auteur et articles connexes" />
     <MESSAGE value="avancement design des commentaires" />
     <MESSAGE value="Avancement design des commentaires&#10;Commencement debug IE&#10;Rajout library flexie" />
+    <MESSAGE value="Compatibilité fll IE.&#10;Suppression des dflexiblesbox" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -438,23 +433,9 @@
         <state line="77" column="37" selection-start="0" selection-end="4026" vertical-scroll-proportion="-23.807692" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/foundation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="18" selection-start="2132" selection-end="2134" vertical-scroll-proportion="0.6035503" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="40" selection-start="15746" selection-end="15746" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="74" selection-start="8166" selection-end="8166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="288" column="40" selection-start="15746" selection-end="15746" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sidebar.php">
@@ -464,65 +445,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="14" selection-start="3710" selection-end="3710" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/flexie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1035" column="47" selection-start="23151" selection-end="23151" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1355351320380" expanded="true" signature="47705:47763" placeholder="..." />
-          </folding>
-        </state>
+        <state line="1035" column="47" selection-start="23151" selection-end="23151" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/foundation.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1354544954000" expanded="false" signature="103332:103387" placeholder="..." />
-            <marker date="1354544954000" expanded="false" signature="103399:103488" placeholder="..." />
-            <marker date="1354544954000" expanded="false" signature="103536:103553" placeholder="..." />
-            <marker date="1354544954000" expanded="false" signature="103610:103627" placeholder="..." />
-            <marker date="1354544954000" expanded="false" signature="103677:103694" placeholder="..." />
-            <marker date="1354544954000" expanded="false" signature="103746:103763" placeholder="..." />
-            <marker date="1354544954000" expanded="false" signature="103813:103830" placeholder="..." />
-            <marker date="1354544954000" expanded="false" signature="103888:103905" placeholder="..." />
-            <marker date="1354544954000" expanded="false" signature="103961:103978" placeholder="..." />
-            <marker date="1354544954000" expanded="false" signature="151146:151159" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1542" selection-end="1542" vertical-scroll-proportion="-15.692307">
+        <state line="24" column="0" selection-start="1542" selection-end="1542" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="1908" selection-end="1915" vertical-scroll-proportion="-20.038462">
+        <state line="52" column="35" selection-start="1908" selection-end="1915" vertical-scroll-proportion="0.02014218">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="14" selection-start="3710" selection-end="3710" vertical-scroll-proportion="0.5971564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="11" selection-start="837" selection-end="847" vertical-scroll-proportion="-11.24">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="164" selection-start="3419" selection-end="3419" vertical-scroll-proportion="-24.461538">
+        <state line="71" column="164" selection-start="3419" selection-end="3419" vertical-scroll-proportion="-22.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="414" column="137" selection-start="36075" selection-end="36075" vertical-scroll-proportion="0.53103447">
+        <state line="506" column="88" selection-start="42795" selection-end="42795" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="249" column="20" selection-start="8579" selection-end="8586" vertical-scroll-proportion="0.4749125">
           <folding />
         </state>
       </provider>
