@@ -372,7 +372,10 @@ button:hover, .holo-btn:hover{ }
 .socials-buttons > .ic-btn{ margin-top: 10px; }
 .title-logo{ padding-top: 10px; padding-bottom: 10px; }
 .title-logo > span{ color: #AAAAAA;  }
-
+.action-bar .dropdown{ padding: 0 !important; margin: 0 !important; }
+.action-bar .dropdown li:not(.title){ border-bottom: 1px solid #3C3C3C; padding-bottom: 0 !important }
+.action-bar .dropdown li:not(.title) > a{ padding: 15px 10px !important; }
+.action-bar .dropdown li:not(.title):last-child{ padding-bottom: 0 !important; }
 /* -----------------------------------------
   Article
 ----------------------------------------- */
@@ -397,7 +400,6 @@ article .content .info{ color: #FFFFFF; border: 1px solid #33B5E5; background-co
 article .content .warning{ color: #FFFFFF; border: 1px solid #FFBB33; background-color: #FFBB33; }
 article .content .error{ color: #FFFFFF; border: 1px solid #FF4444; background-color: #FF4444; }
 article .content .success{ color: #FFFFFF; border: 1px solid #99CC00; background-color: #99CC00; }
-
 .comments, .credential{ background-color: #FDFDFD; border: 1px solid #DFDFDF; -moz-box-shadow: 0px 3px 3px 0px #DFDFDF; -webkit-box-shadow: 0px 1px 1px 0px #DFDFDF; -o-box-shadow: 0px 1px 1px 0px #DFDFDF; box-shadow: 0px 1px 1px 0px #DFDFDF; filter: progid:DXImageTransform.Microsoft.Shadow(color=#DFDFDF, Direction=180, Strength=1); -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; margin-bottom: 10px; }
 .credential .author{ border-top: 1px solid #DFDFDF; border-bottom: 1px solid #DFDFDF; background-color: #F0F0F0; overflow: auto; }
 .credential .author > .picture{ float: left; width: 60px; }
@@ -410,7 +412,6 @@ article .content .success{ color: #FFFFFF; border: 1px solid #99CC00; background
 .credential .connexe .post > .post-thumb{ width: 60px; float: left;  }
 .credential .connexe .post > .link{ margin-left: 60px; height: 75px; border-left: 1px solid #DFDFDF; padding: 10px; background-color: #FFFFFF; }
 .credential .connexe .post > .link > h5{ margin: 0; }
-
 .comments .comment, .comments .pingback{ position: relative; min-height: 50px; border-top: 1px solid #DFDFDF; background-color: #F0F0F0; }
 .comments .avatar{ width: 38px; float: left; }
 .comments .comment-content{ padding: 5px; border-left: 1px solid #DFDFDF; background-color: #FFFFFF; margin-left: 38px; min-height: 50px; }
