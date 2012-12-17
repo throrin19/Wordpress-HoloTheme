@@ -387,7 +387,7 @@ article > .infos a{ color: #9C9C9C; font-weight: bold; }
 article > .details{ color: #9C9C9C; font-weight: bold; margin-bottom: 10px !important; }
 article .content{ display: -webkit-box; display: -moz-box; display: -ms-box; display: box; -webkit-box-align: center; -moz-box-align: center; box-align: center; }
 .archive-title{ margin-top: 10px; padding: 10px; font-style: italic; }
-article .content h1, article .content h2, article .content h3, article .content h4, article .content h5{ color: #9C9C9C; font-weight: lighter; }
+article .content h1, article .content h2, article .content h3, article .content h4, article .content h5{ color: #9C9C9C; font-weight: lighter; word-wrap: break-word; }
 article .content h1{ font-size: 27px; }
 article .content h2{ font-size: 23px; }
 article .content h3{ font-size: 17px; }
@@ -421,8 +421,12 @@ article .content .success{ color: #FFFFFF; border: 1px solid #99CC00; background
 .comments form .row{ margin-bottom: 5px; }
 .comment .row{ margin: 0; }
 .comment .row .columns{ padding-left: 0; }
-
-
+article .tags{ border-top: 1px solid rgba(0, 0, 0, .13); padding: 10px 0; margin: 0; }
+article .tags h3{ font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 3px 0; padding: 0; text-transform: none; letter-spacing: 0; line-height: 1; font-weight: bold; width: 15.625%; float: left; position: static; background: none; border: none; }
+article .tags .tag-content{ width: 82.125%; float: right; margin: -2px 0 0 0; }
+article .tags ul{ margin: 0 !important; padding: 0 !important; text-indent: 0; list-style: none; border: none; background: none; }
+article .tags ul > li{ float: left; margin: 0 5px 5px 0 !important; display: block; padding: 0 !important; text-indent: 0; list-style: none; border: none; background: none; }
+article .tags ul > li > a{ margin: 0; padding: 5px !important; display: inline-block; background: #EFEFEF; background: -moz-linear-gradient(top, #F7F7F7 0%, #EFEFEF 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F7F7F7), color-stop(100%,#EFEFEF)); background: -webkit-linear-gradient(top, #F7F7F7 0%,#EFEFEF 100%); background: -o-linear-gradient(top, #F7F7F7 0%,#EFEFEF 100%); background: -ms-linear-gradient(top, #F7F7F7 0%,#EFEFEF 100%); background: linear-gradient(top, #F7F7F7 0%,#EFEFEF 100%); border-radius: 3px; border: 1px solid #DDD !important; box-shadow: inset 0 1px 0 white; color: black !important; text-decoration: none; line-height: 1; font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: normal; }
 /* -----------------------------------------
   Sidebar
 ----------------------------------------- */

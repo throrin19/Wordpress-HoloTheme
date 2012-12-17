@@ -25,6 +25,12 @@
             <div class="row content">
                 <div class="twelve columns">
                     <?php the_content(); ?>
+                    <div class="tags">
+                        <h3>Mots-clefs&nbsp;:</h3>
+                        <div class="tag-content">
+                            <?php the_tags('<ul><li>','</li><li>','</li></ul>'); ?>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row infos">
