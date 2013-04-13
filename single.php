@@ -82,9 +82,10 @@
                         if( $my_query->have_posts() ) {
                             echo "<h5>Articles Connexes</h5>";
                             $i = 1;
+                            $row = false;
                             while ($my_query->have_posts()) {
                                 $my_query->the_post();
-                                if($i%2 == 1){ echo "<div class='row'>";  }
+                                if($i%2 == 1){ echo "<div class='row'>"; $row = true;  }
                 ?>
                                 <div class="six columns post">
                                     <div class="post-thumb">
@@ -95,10 +96,12 @@
                                     </div>
                                 </div>
                 <?php
-                                if($i%2 == 0){ echo "</div>"; }
-                                if($i/2 == 1 && !$my_query->have_posts()){ echo '<div class="six columns post"></div></div>'; }
+                                if($i%2 == 0){ echo "</div>"; $row = false; }
+                                //if($i%2 == 1 && !$my_query->have_posts()){ echo '</div>'; }
                                 ++$i;
                             }
+                            if($row == true){ echo "<div class=\"six columns post\"></div></div>"; }
+
                         }
                     }
                     $post = $backup;

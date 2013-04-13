@@ -385,7 +385,7 @@ article > h3.title > a{ font-weight: lighter; color: #9C9C9C; }
 article > .infos{ font-weight: normal; color: #9C9C9C; padding: 10px 0; border-top: 1px solid #DFDFDF; margin: 0 -10px !important; }
 article > .infos a{ color: #9C9C9C; font-weight: bold; }
 article > .details{ color: #9C9C9C; font-weight: bold; margin-bottom: 10px !important; }
-article .content{ display: -webkit-box; display: -moz-box; display: -ms-box; display: box; -webkit-box-align: center; -moz-box-align: center; box-align: center; }
+article .content{ -webkit-box-align: center; -moz-box-align: center; box-align: center; }
 .archive-title{ margin-top: 10px; padding: 10px; font-style: italic; }
 article .content h1, article .content h2, article .content h3, article .content h4, article .content h5{ color: #9C9C9C; font-weight: lighter; word-wrap: break-word; }
 article .content h1{ font-size: 27px; }
@@ -460,7 +460,7 @@ aside .widget .content a > span{ overflow: hidden; white-space: nowrap; text-ove
 aside .widget .content .small li > a{ font-size: small; }
 aside .widget .content .small li > a > span.small{ font-size: smaller; }
 aside > form{ margin: 10px 1px; }
-aside > form.search > div{ display: -webkit-box; display: -moz-box; display: -ms-box; display: box; }
+aside > form.search > div{  }
 aside > form.search input[type=text]{ padding: 0; height: 25px; background: none; -webkit-box-flex: 1; -moz-box-flex: 1; -ms-box-flex: 1; box-flex: 1; border:none; box-shadow: none; margin: 0; }
 aside > form.search input[type=text]:hover{ color: #33b5e5; }
 aside > form.search input[type=submit]{ border:none; box-shadow: none; cursor: pointer; }
@@ -522,3 +522,12 @@ footer .widget .textwidget{ padding: 10px; }
     article .content{ display: block; }
     article a.thumb{ margin: 0 auto; }
 }
+
+/* ------------------------------------------
+  Wordpress fix
+------------------------------------------ */
+#wpstats{ display: none; }
+
+/* ------------------------------------------
+  DevFormatter Design
+------------------------------------------ */

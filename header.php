@@ -119,7 +119,7 @@
                 <a class="ic-btn ic-action ic-action-github" href="<?php echo get_option('holo_github_link'); ?>"></a>
                 <?php } ?>
                 <?php if(get_option('holo_playstore_link')!=""){ ?>
-                <a class="ic-btn ic-action ic-action-google-play" href="#<?php echo get_option('holo_playstore_link'); ?>"></a>
+                <a class="ic-btn ic-action ic-action-google-play" href="<?php echo get_option('holo_playstore_link'); ?>"></a>
                 <?php } ?>
             </div>
         </div>
