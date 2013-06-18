@@ -18,11 +18,6 @@
         $.fn.foundationClearing         ? $doc.foundationClearing() : null;
 
         $.fn.placeholder                ? $('input, textarea').placeholder() : null;
-
-        $(".thumb").nailthumb({
-            title: null,
-            titleAttr: null
-        });
   });
 
   // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
