@@ -350,6 +350,8 @@ button:hover, .holo-btn:hover{ }
 .top-bar{ background: none !important; margin: 0 !important; }
 .bar-title{ line-height: 16px !important; }
 .action-bar-title { display: none !important; }
+.p-menu.cats li > a{ min-width: 150px; text-align: center; }
+.p-menu .has-dropdown li > a{ min-width: 150px; text-align: left;}
 .p-menu > li:not(.name):hover, .p-menu > li:not(.name).active { background: none !important; }
 .p-menu > li:not(.name) > a:hover, .p-menu > li:not(.name).active > a:hover { border-left: none; height: 45px; border-bottom: 4px solid #0099CC; color: white !important; }
 .p-menu > li:not(.name):nth-of-type(2) > a:hover, .p-menu > li:not(.name):nth-of-type(2) > .active { border-bottom: 4px solid #0099CC; }
@@ -450,7 +452,7 @@ aside .widget .content ul > li:last-child{ border-bottom: none; }
 aside .widget .content ul > li
 aside .widget .content ul > li > a{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
 aside .widget .content a{ display: block; color: #8C8C8C; font-weight: bold; padding: 10px 10px 10px 15px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-aside .widget .content a:hover{ padding-left: 10px; border-left: 5px solid #33B5E5; }
+aside .widget .content a:hover{ padding-left: 10.5px; border-left: 5px solid #33B5E5; }
 aside > div:nth-of-type(1) .content a:hover, aside > div:nth-of-type(6) .content a:hover{ border-left: 5px solid #33B5E5;}
 aside > div:nth-of-type(2) .content a:hover, aside > div:nth-of-type(7) .content a:hover{ border-left: 5px solid #AA66CC;}
 aside > div:nth-of-type(3) .content a:hover, aside > div:nth-of-type(8) .content a:hover{ border-left: 5px solid #99CC00;}
@@ -539,7 +541,7 @@ code{
     line-height: 15px;
     font-size: 12px;
     font-weight: inherit;
-    padding: 2px 4px;
+    padding: 3px 6px;
     color: #d14;
     white-space: nowrap;
     background-color: #f7f7f9;
@@ -547,4 +549,7 @@ code{
 }
 pre.prettyprint{
     margin-bottom: 13px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }

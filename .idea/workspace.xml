@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ea6184-04e2-4739-8373-1d9042437992" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timthumb.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/jquery.nailthumb.1.1.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/app.js" afterPath="$PROJECT_DIR$/javascripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HoloTheme.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371581380023" ignored="false" />
-    <file path="/app.css" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371587027792" ignored="false" />
-    <file path="/index.php" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371587042808" ignored="false" />
+    <file path="/Dummy.txt" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371641093710" ignored="false" />
+    <file path="/app.css" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371642071418" ignored="false" />
+    <file path="/index.php" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371639937124" ignored="false" />
     <file path="/info.php" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371584894060" ignored="false" />
+    <file path="/header.php" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371641502321" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="111" selection-start="2486" selection-end="2486" vertical-scroll-proportion="0.45022625">
-              <folding>
-                <element signature="e#2604#2662#0" expanded="true" />
-              </folding>
+            <state line="553" column="23" selection-start="47293" selection-end="47293" vertical-scroll-proportion="0.8993289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="79" selection-start="2825" selection-end="2837" vertical-scroll-proportion="-11.25">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,15 +75,15 @@
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/contact-form-7.txt" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/comments.php" />
         <option value="$PROJECT_DIR$/single.php" />
         <option value="$PROJECT_DIR$/timthumb.php" />
         <option value="$PROJECT_DIR$/info.php" />
-        <option value="$PROJECT_DIR$/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/javascripts/app.js" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/stylesheets/app.css" />
       </list>
     </option>
   </component>
@@ -132,20 +136,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HoloTheme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HoloTheme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -154,16 +144,16 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../GoomeoEvents" />
-    <property name="FullScreen" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="PublishConfig" serverName="vm-ubuntu" serverId="fbc96880-7bbb-46d7-af50-ed98e169f8a9" autoUpload="true">
     <servers>
@@ -219,14 +209,14 @@
       <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="fafd9530-005e-47c5-9ee1-658d2871d5ca" server_name="throrinstudio">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="fafd9530-005e-47c5-9ee1-658d2871d5ca" server_name="throrinstudio">
       <method />
     </configuration>
     <list size="0" />
@@ -356,30 +346,38 @@
       <created>1365871455098</created>
       <updated>1365871455098</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="+ change thumb in index&#10;+ add timthumb">
+      <created>1371588557991</created>
+      <updated>1371588557991</updated>
+    </task>
+    <task id="LOCAL-00028" summary="+ modification css des thumbs">
+      <created>1371641107629</created>
+      <updated>1371641107629</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32842106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842106" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67070484" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26904178" sideWeight="0.67157894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27272728" sideWeight="0.67157894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842106" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -427,7 +425,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajustement minime de design" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ modification css des thumbs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -441,8 +439,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Mise en place du projet" />
-    <MESSAGE value="Ajout des ressources foundation" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="Avancement du thème, ajout du bouton overflow&#10;" />
     <MESSAGE value="Ajout des sprites d'icones action android&#10;Avancement du design pour la topbar&#10;Ajout de la titleBar&#10;Refonte de la footerbar&#10;Ajout des liens sociaux&#10;Avancement design des articles style google now&#10;" />
@@ -466,6 +462,8 @@
     <MESSAGE value="Finalisation du thème" />
     <MESSAGE value="Ajout du screenshot" />
     <MESSAGE value="ajustement minime de design" />
+    <MESSAGE value="+ change thumb in index&#10;+ add timthumb" />
+    <MESSAGE value="+ modification css des thumbs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -484,11 +482,6 @@
     <entry file="file://$PROJECT_DIR$/stylesheets/foundation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="11" selection-start="837" selection-end="847" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-14.384615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comments.php">
@@ -528,40 +521,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/timthumb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="28" selection-start="9920" selection-end="9920" vertical-scroll-proportion="0.54545456">
-          <folding>
-            <element signature="e#6#384#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="125" column="28" selection-start="9920" selection-end="9920" vertical-scroll-proportion="0.54545456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="84" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.4679803">
-          <folding />
-        </state>
+        <state line="19" column="84" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.4679803" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="102" selection-start="3756" selection-end="3756" vertical-scroll-proportion="0.7324415">
+        <state line="76" column="102" selection-start="3756" selection-end="3756" vertical-scroll-proportion="0.7324415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="117" selection-start="2500" selection-end="2500" vertical-scroll-proportion="-9.708333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="79" selection-start="2825" selection-end="2837" vertical-scroll-proportion="-11.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="73" selection-start="28493" selection-end="28493" vertical-scroll-proportion="0.34251103">
+        <state line="553" column="23" selection-start="47293" selection-end="47293" vertical-scroll-proportion="0.8993289">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="111" selection-start="2486" selection-end="2486" vertical-scroll-proportion="0.45022625">
-          <folding>
-            <element signature="e#2604#2662#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

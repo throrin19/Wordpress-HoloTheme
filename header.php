@@ -43,7 +43,7 @@
                 </ul>
                 <section>
                     <!-- Left Nav Section -->
-                    <ul class="p-menu left">
+                    <ul class="p-menu left cats">
                         <li class="divider"></li>
 
                         <?php
