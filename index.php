@@ -43,15 +43,13 @@
                         </div>
                     </div>
 
-                    <div class="row content">
+                    <div class="row content summary">
                         <?php if(has_post_thumbnail()){ ?>
                             <?php
-                                $url = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), array(400,400) );
+                                $url = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), array(684,375) );
                                 $thumbnailSrc = $url[0];
 
-                                $thumbSrc = get_template_directory_uri()."/timthumb.php?src=$thumbnailSrc&h=135&w=350&zc=1q=10";
-
-
+                                $thumbSrc = get_template_directory_uri()."/timthumb.php?src=$thumbnailSrc&h=250&w=456&zc=1q=10";
                             ?>
                         <div class="four columns txt-center thumb" style="background-image: url('<?php echo $thumbSrc; ?>');"></div>
                         <div class="eight columns">

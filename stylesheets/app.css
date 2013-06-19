@@ -329,7 +329,7 @@ body{ /*background: url("../images/stripe_body.png") repeat;*/background: #f0f0f
 .txt-center{ text-align: center; }
 .ov-auto{ overflow: auto; }
 .relative{ position: relative; }
-.thumb{ background-repeat: no-repeat; background-position: center center;  border: 1px solid #DFDFDF; height: 126px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; margin-left: 4px; margin-right: -4px; }
+.thumb{ background-repeat: no-repeat; background-position: center center;  border: 1px solid #DFDFDF; height: 126px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; margin-left: 4.5px; margin-right: -5px; }
 .inline{ display: inline-block; }
 #colorbox, #colorbox:before, #colorbox:after, #cboxWrapper, #cboxWrapper:after, #cboxWrapper:before, #cboxContent, #cboxContent:after, #cboxContent:before, #cboxLoadedContent, #cboxLoadedContent:after, #cboxLoadedContent:before, .cboxPhoto, .cboxPhoto:after, .cboxPhoto:before{ box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; }
 
@@ -384,6 +384,7 @@ article > h3.title > a{ font-weight: lighter; color: #9C9C9C; }
 article > .infos{ font-weight: normal; color: #9C9C9C; padding: 10px 0; border-top: 1px solid #DFDFDF; margin: 0 -10px !important; }
 article > .infos a{ color: #9C9C9C; font-weight: bold; }
 article > .details{ color: #9C9C9C; font-weight: bold; margin-bottom: 10px !important; }
+article .content.summary{ margin-bottom: -1px; }
 article .content{ -webkit-box-align: center; -moz-box-align: center; box-align: center; }
 .archive-title{ margin-top: 10px; padding: 10px; font-style: italic; }
 article .content h1, article .content h2, article .content h3, article .content h4, article .content h5{ color: #9C9C9C; font-weight: lighter; word-wrap: break-word; }
@@ -503,7 +504,7 @@ footer .widget .textwidget{ padding: 10px; }
   Max Width: 940px
 ----------------------------------------- */
 @media only screen and (max-width: 765px){
-    .thumb{ margin-right: 4px; }
+    .thumb{ margin-left: 4px; margin-right: 4px; }
 }
 
 @media only screen and (max-width: 940px) {
