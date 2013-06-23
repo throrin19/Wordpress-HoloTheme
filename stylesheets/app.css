@@ -433,19 +433,19 @@ article .tags ul > li > a{ margin: 0; padding: 5px !important; display: inline-b
   Sidebar
 ----------------------------------------- */
 aside{ padding: 0 !important; }
-aside .widget{ margin: 10px 0; border: 1px solid #DFDFDF; border-bottom: 3px solid #33B5E5; }
-aside > div:nth-of-type(1), aside > div:nth-of-type(6){ border-bottom: 3px solid #33B5E5; }
-aside > div:nth-of-type(2), aside > div:nth-of-type(7){ border-bottom: 3px solid #AA66CC; }
-aside > div:nth-of-type(3), aside > div:nth-of-type(8){ border-bottom: 3px solid #99CC00; }
-aside > div:nth-of-type(4), aside > div:nth-of-type(9){ border-bottom: 3px solid #FFBB33; }
-aside > div:nth-of-type(5), aside > div:nth-of-type(10){ border-bottom: 3px solid #FF4444; }
+aside .widget{ margin: 10px 0; border: 1px solid #DFDFDF; }
 aside .widget .title{ background: url("../images/stripe_body.png") repeat; border-bottom: 3px solid #33B5E5; padding: 10px 5px; text-align: center; color: #9C9C9C; margin: 0; }
 aside > div:nth-of-type(1) .title, aside > div:nth-of-type(6) .title{ border-bottom: 3px solid #33B5E5; }
 aside > div:nth-of-type(2) .title, aside > div:nth-of-type(7) .title{ border-bottom: 3px solid #AA66CC; }
 aside > div:nth-of-type(3) .title, aside > div:nth-of-type(8) .title{ border-bottom: 3px solid #99CC00; }
 aside > div:nth-of-type(4) .title, aside > div:nth-of-type(9) .title{ border-bottom: 3px solid #FFBB33; }
 aside > div:nth-of-type(5) .title, aside > div:nth-of-type(10) .title{ border-bottom: 3px solid #FF4444; }
-aside .widget .content{ background-color: #FCFCFC; }
+aside .widget .content{ background-color: #FCFCFC; border-bottom: 3px solid #33B5E5; }
+aside > div:nth-of-type(1) .content, aside > div:nth-of-type(6) .content{ border-bottom: 3px solid #33B5E5; }
+aside > div:nth-of-type(2) .content, aside > div:nth-of-type(7) .content{ border-bottom: 3px solid #AA66CC; }
+aside > div:nth-of-type(3) .content, aside > div:nth-of-type(8) .content{ border-bottom: 3px solid #99CC00; }
+aside > div:nth-of-type(4) .content, aside > div:nth-of-type(9) .content{ border-bottom: 3px solid #FFBB33; }
+aside > div:nth-of-type(5) .content, aside > div:nth-of-type(10) .content{ border-bottom: 3px solid #FF4444; }
 aside .widget .content ul{ margin: 0; }
 aside .widget .content ul > li{ list-style: none; padding: 0; border-bottom: 1px solid #F0F0F0; }
 aside .widget .content ul > li:last-child{ border-bottom: none; }
