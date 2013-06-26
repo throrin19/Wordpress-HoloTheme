@@ -47,17 +47,17 @@
                         <li class="divider"></li>
 
                         <?php
-                            $categories = get_categories();
-                            foreach($categories as $category){
-                                if ($category->parent == 0) {
-                                    $childs =  get_categories('parent='.$category->cat_ID);
+                            $pages = get_pages();
+                            foreach($pages as $page){
+                                if ($page->parent == 0) {
+                                    $childs =  get_pages('parent='.$page->ID);
                         ?>
                         <li <?php if(count($childs) > 0){ ?>class="has-dropdown"<?php } ?>>
-                            <a href="<?php echo get_category_link($category->term_id); ?>"><?php echo $category->name; ?></a>
+                            <a href="<?php echo get_page_link($page->ID); ?>"><?php echo $page->post_title; ?></a>
                             <?php if(count($childs) > 0){ ?>
                                  <ul class="dropdown">
                                      <?php foreach($childs as $child){ ?>
-                                     <li><a href="<?php echo get_category_link($child->term_id); ?>"><?php echo $child->name; ?></a></li>
+                                     <li><a href="<?php echo get_page_link($child->ID); ?>"><?php echo $child->post_title; ?></a></li>
                                      <?php } ?>
                                  </ul>
                             <?php } ?>
@@ -77,11 +77,14 @@
                             </a>
                             <ul class="dropdown">
                                 <?php
-                                    $pages = get_pages();
-                                    foreach($pages as $page){
+                                    $overflows = get_bookmarks( array (
+                                                                    'category_name' => 'Menu'
+                                                                       )
+                                                              );
+                                    foreach($overflows as $overflow){
                                 ?>
                                 <li>
-                                    <a href="<?php echo get_page_link($page->ID); ?>"><?php echo $page->post_title; ?></a>
+                                    <a href="<?php echo $overflow->link_url; ?>"><?php echo $overflow->link_name; ?></a>
                                 </li>
                                 <?php
                                     }

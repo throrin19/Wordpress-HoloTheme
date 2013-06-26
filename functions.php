@@ -31,6 +31,8 @@ if ( function_exists('register_sidebar') ){
     ));
 }
 
+add_theme_support( 'menus' );
+
 // widget des commentaires récents modifié pour notre thème
 function widget_last_comments_widgets($args) {
     extract($args);
