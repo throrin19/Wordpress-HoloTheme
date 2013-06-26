@@ -63,7 +63,7 @@
 
             <div class="holo-field">
                 <div class="holo-field-bckg"></div>
-                <textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4" placeholder="Commentaire"></textarea>
+                <textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4" placeholder="Comment"></textarea>
             </div>
 
             <p><input name="submit" type="submit" id="submit" class="secondary button" tabindex="5" value="POSTER" />
@@ -84,7 +84,7 @@
 <?php if ( have_comments() ) : ?>
         <div class="comments">
 
-	        <h5>Commentaires</h5>
+	        <h5>Comments</h5>
 
 	        <div class="commentlist">
 	            <?php wp_list_comments('callback=mytheme_comment'); ?>
