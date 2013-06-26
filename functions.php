@@ -41,7 +41,7 @@ function widget_last_comments_widgets($args) {
     ?>
 <?php echo $before_widget; ?>
 <?php echo $before_title
-        . 'Commentaires Récents'
+        . 'Comments Récents'
         . $after_title; ?>
 <ul class="small">
     <?php foreach($comments as $comment){ ?>
