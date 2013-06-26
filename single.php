@@ -53,7 +53,7 @@
 
         <div class="credential">
             <div class="connexe">
-                <h5>A propos de l'auteur</h5>
+                <h5>About the Author</h5>
             </div>
             <div class="author relative">
                 <div class="picture">

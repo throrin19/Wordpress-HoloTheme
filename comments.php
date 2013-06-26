@@ -5,7 +5,7 @@
 		die ('Please do not load this page directly. Thanks!');
 
 	if ( post_password_required() ) { ?>
-		<p class="nocomments">Ce poste est protégé par mot de passe. Entrez le mot de passe pour afficher les commentaires.</p>
+		<p class="nocomments">This post is password protected. Enter the password to view comments.</p>
 	<?php
 		return;
 	}
@@ -16,21 +16,21 @@
 
     <div id="respond" class="comments" name="comments">
 
-        <h5 id="commentsForm"><?php comment_form_title( 'Laisser un commentaire', 'Laisser un commentaire à %s' ); ?></h5>
+        <h5 id="commentsForm"><?php comment_form_title( 'Leave a Reply', 'Leave a Reply to %s' ); ?></h5>
 
         <div class="cancel-comment-reply">
             <small><?php cancel_comment_reply_link(); ?></small>
         </div>
 
         <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
-        <p>Vous devez être <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">connectés</a> pour poster un commentaire.</p>
+        <p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">logged in</a>  to post a comment.</p>
         <?php else : ?>
 
         <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
 
             <?php if ( $user_ID ) : ?>
 
-            <p>Connecté en tant que <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Se déconnecter &raquo;</a></p>
+            <p>Logged in as  <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Logout &raquo;</a></p>
 
             <?php else : ?>
 
@@ -40,7 +40,7 @@
                 <input type="text" name="author" id="author"
                        value="<?php echo $comment_author; ?>" size="22" tabindex="1"
                     <?php if ($req) echo "aria-required='true'"; ?>
-                       placeholder="Nom <?php if ($req) echo "(required)"; ?>" />
+                       placeholder="Name <?php if ($req) echo "(required)"; ?>" />
             </div>
             <div class="holo-field">
                 <div class="holo-field-bckg"></div>
@@ -48,7 +48,7 @@
                        value="<?php echo $comment_author_email; ?>"
                        size="22" tabindex="2"
                     <?php if ($req) echo "aria-required='true'"; ?>
-                       placeholder="E-mail (ne sera pas publié) <?php if ($req) echo "(required)"; ?>" />
+                       placeholder="E-mail (will not be published) <?php if ($req) echo "(required)"; ?>" />
             </div>
 
             <div class="holo-field">
@@ -56,7 +56,7 @@
                 <input type="url" name="url" id="url"
                        value="<?php echo $comment_author_url; ?>"
                        size="22" tabindex="3"
-                       placeholder="Site Internet" />
+                       placeholder="Website URL" />
             </div>
 
             <?php endif; ?>
@@ -66,7 +66,7 @@
                 <textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4" placeholder="Comment"></textarea>
             </div>
 
-            <p><input name="submit" type="submit" id="submit" class="secondary button" tabindex="5" value="POSTER" />
+            <p><input name="submit" type="submit" id="submit" class="secondary button" tabindex="5" value="POST" />
                 <?php comment_id_fields(); ?>
             </p>
             <?php do_action('comment_form', $post->ID); ?>
@@ -77,7 +77,7 @@
     </div>
 <?php else : // this is displayed if there are no comments so far ?>
     <!-- If comments are closed. -->
-    <p class="nocomments">Les commentaires sont fermés.</p>
+    <p class="nocomments">Comments are closed.</p>
 <?php endif; ?>
 
 
