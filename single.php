@@ -38,7 +38,7 @@
                     <i class="ic-action-small ic-action-small-user"></i><?php the_author_link(); ?>
                 </div>
                 <div class="four columns">
-                    <i class="ic-action-small ic-action-small-sms"></i><?php comments_popup_link('Pas de Commentaires', '1 Commentaire ', '% Commentaire(s)'); ?>
+                    <i class="ic-action-small ic-action-small-sms"></i><?php comments_popup_link('Post Comments', '1 Comment ', '% Comment(s)'); ?>
                 </div>
                 <div class="four columns txt-right">
 
@@ -53,7 +53,7 @@
 
         <div class="credential">
             <div class="connexe">
-                <h5>A propos de l'auteur</h5>
+                <h5>About the Author</h5>
             </div>
             <div class="author relative">
                 <div class="picture">

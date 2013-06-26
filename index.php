@@ -66,10 +66,10 @@
                             <i class="ic-action-small ic-action-small-user"></i><?php the_author_link(); ?>
                         </div>
                         <div class="four columns">
-                            <i class="ic-action-small ic-action-small-sms"></i><?php comments_popup_link('Pas de Commentaires', '1 Commentaire ', '% Commentaire(s)'); ?>
+                            <i class="ic-action-small ic-action-small-sms"></i><?php comments_popup_link('Post Comments', '1 Comment ', '% Comment(s)'); ?>
                         </div>
                         <div class="four columns txt-right">
-                            <a href="<?php the_permalink() ?>"><i class="ic-action-small ic-action-small-news"></i> Lire la suite</a>
+                            <a href="<?php the_permalink() ?>"><i class="ic-action-small ic-action-small-news"></i> Read more</a>
                         </div>
                     </div>
                 </article>
