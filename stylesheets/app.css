@@ -355,16 +355,16 @@ button:hover, .holo-btn:hover{ }
 .p-menu > li:not(.name):hover, .p-menu > li:not(.name).active { background: none !important; }
 .p-menu > li:not(.name) > a:hover, .p-menu > li:not(.name).active > a:hover { border-left: none; height: 45px; border-bottom: 4px solid #0099CC; color: white !important; }
 .p-menu > li:not(.name):nth-of-type(2) > a:hover, .p-menu > li:not(.name):nth-of-type(2) > .active { border-bottom: 4px solid #0099CC; }
-.p-menu > li:not(.name):nth-of-type(4) > a:hover, .p-menu > li:not(.name):nth-of-type(4) > .active { border-bottom: 4px solid #9933CC; }
-.p-menu > li:not(.name):nth-of-type(6) > a:hover, .p-menu > li:not(.name):nth-of-type(6) > .active { border-bottom: 4px solid #669900; }
-.p-menu > li:not(.name):nth-of-type(8) > a:hover, .p-menu > li:not(.name):nth-of-type(8) > .active { border-bottom: 4px solid #FF8800; }
-.p-menu > li:not(.name):nth-of-type(10) > a:hover, .p-menu > li:not(.name):nth-of-type(10) > .active { border-bottom: 4px solid #CC0000; }
+.p-menu > li:not(.name):nth-of-type(4) > a:hover, .p-menu > li:not(.name):nth-of-type(4) > .active { border-bottom: 4px solid #0099CC; }
+.p-menu > li:not(.name):nth-of-type(6) > a:hover, .p-menu > li:not(.name):nth-of-type(6) > .active { border-bottom: 4px solid #0099CC; }
+.p-menu > li:not(.name):nth-of-type(8) > a:hover, .p-menu > li:not(.name):nth-of-type(8) > .active { border-bottom: 4px solid #0099CC; }
+.p-menu > li:not(.name):nth-of-type(10) > a:hover, .p-menu > li:not(.name):nth-of-type(10) > .active { border-bottom: 4px solid #0099CC; }
 .p-menu > li:not(.name) li > label, .p-menu > li:not(.name) .dropdown h5 > a{ color: #0099CC !important; }
 .p-menu > li:not(.name):nth-of-type(2) li > label, .p-menu > li:not(.name):nth-of-type(2) .dropdown h5 > a{ color: #0099CC !important; }
-.p-menu > li:not(.name):nth-of-type(4) li > label, .p-menu > li:not(.name):nth-of-type(4) .dropdown h5 > a{ color: #9933CC !important; }
-.p-menu > li:not(.name):nth-of-type(6) li > label, .p-menu > li:not(.name):nth-of-type(6) .dropdown h5 > a{ color: #669900 !important; }
-.p-menu > li:not(.name):nth-of-type(8) li > label, .p-menu > li:not(.name):nth-of-type(8) .dropdown h5 > a{ color: #FF8800 !important; }
-.p-menu > li:not(.name):nth-of-type(10) li > label, .p-menu > li:not(.name):nth-of-type(10) .dropdown h5 > a{ color: #CC0000 !important; }
+.p-menu > li:not(.name):nth-of-type(4) li > label, .p-menu > li:not(.name):nth-of-type(4) .dropdown h5 > a{ color: #0099CC !important; }
+.p-menu > li:not(.name):nth-of-type(6) li > label, .p-menu > li:not(.name):nth-of-type(6) .dropdown h5 > a{ color: #0099CC !important; }
+.p-menu > li:not(.name):nth-of-type(8) li > label, .p-menu > li:not(.name):nth-of-type(8) .dropdown h5 > a{ color: #0099CC !important; }
+.p-menu > li:not(.name):nth-of-type(10) li > label, .p-menu > li:not(.name):nth-of-type(10) .dropdown h5 > a{ color: #0099CC !important; }
 .ic-overflow > a{ padding: 5px 0 0 !important; }
 .ic-overflow > a:after{ border: none !important; }
 .ic-overflow > a:hover, .ic-overflow > a:hover{ height: 45px !important; border-bottom: none !important; background: url("../images/stripe_select.png") repeat !important; }
@@ -477,10 +477,10 @@ aside > form.search input[type=submit]{ border:none; box-shadow: none; cursor: p
 .bottom-bar{ color: #FFFFFF; margin: 0; padding: 10px 10px; width: 100%; }
 footer .widget{ margin: 10px 0; }
 footer .widget .title{ text-align: left; margin: 0; padding: 10px; }
-footer div .title, footer div:nth-of-type(1) .title{ color: #9933CC; border-bottom: 2px solid #9933CC; }
+footer div .title, footer div:nth-of-type(1) .title{ color: #33b5e5; border-bottom: 2px solid #33b5e5; }
 footer div:nth-of-type(2) .title{ color: #FF8800; border-bottom: 2px solid #FF8800; }
 footer div:nth-of-type(3) .title{ color: #CC0000; border-bottom: 2px solid #CC0000; }
-footer div .content a:hover, footer div:nth-of-type(1) .content a:hover{ padding-left: 10px; border-left: 5px solid #9933CC; }
+footer div .content a:hover, footer div:nth-of-type(1) .content a:hover{ padding-left: 10px; border-left: 5px solid #33b5e5; }
 footer div:nth-of-type(2) .content a:hover{ padding-left: 10px; border-left: 5px solid #FF8800; }
 footer div:nth-of-type(3) .content a:hover{ padding-left: 10px; border-left: 5px solid #CC0000; }
 footer .widget .content ul > li{ display: block; list-style: none; border-bottom: 1px solid #9C9C9C; }
@@ -489,7 +489,7 @@ footer .widget .small li > a{ font-size: small; }
 footer .widget .small li > a > span.small{ font-size: smaller; }
 footer .widget .content a{ display: block; color: #8C8C8C; font-weight: bold; padding: 10px 10px 10px 15px; }
 footer .widget .content > .text{ color: #8C8C8C; padding: 10px; }
-footer .site-info{ border-top: 1px solid #669900; padding: 10px; font-size: smaller; color: #669900 }
+footer .site-info{ border-top: 1px solid #0099cc; padding: 10px; font-size: smaller; color: #0099cc }
 footer .widget .content{ color: #8C8C8C; }
 footer .widget .textwidget{ padding: 10px; }
 
@@ -520,9 +520,9 @@ footer .widget .textwidget{ padding: 10px; }
     aside{ padding: 0 15px !important; }
     .p-menu > li:not(.name) > a:hover, .p-menu > li:not(.name).active > a:hover { padding-left: 18.5px !important; border-bottom: none; border-left: 4px solid #0099CC; }
     .p-menu > li:not(.name):nth-of-type(2) > a:hover, .p-menu > li:not(.name):nth-of-type(2) > .active { padding-left: 18.5px !important; border-bottom: none;  border-left: 4px solid #0099CC; }
-    .p-menu > li:not(.name):nth-of-type(4) > a:hover, .p-menu > li:not(.name):nth-of-type(4) > .active { padding-left: 18.5px !important; border-bottom: none;  border-left: 4px solid #9933CC; }
-    .p-menu > li:not(.name):nth-of-type(6) > a:hover, .p-menu > li:not(.name):nth-of-type(6) > .active { padding-left: 18.5px !important; border-bottom: none;  border-left: 4px solid #669900; }
-    .p-menu > li:not(.name):nth-of-type(8) > a:hover, .p-menu > li:not(.name):nth-of-type(8) > .active { padding-left: 18.5px !important; border-bottom: none;  border-left: 4px solid #FF8800; }
+    .p-menu > li:not(.name):nth-of-type(4) > a:hover, .p-menu > li:not(.name):nth-of-type(4) > .active { padding-left: 18.5px !important; border-bottom: none;  border-left: 4px solid #0099CC; }
+    .p-menu > li:not(.name):nth-of-type(6) > a:hover, .p-menu > li:not(.name):nth-of-type(6) > .active { padding-left: 18.5px !important; border-bottom: none;  border-left: 4px solid #0099CC; }
+    .p-menu > li:not(.name):nth-of-type(8) > a:hover, .p-menu > li:not(.name):nth-of-type(8) > .active { padding-left: 18.5px !important; border-bottom: none;  border-left: 4px solid #0099CC; }
     .p-menu > li:not(.name):nth-of-type(10) > a:hover, .p-menu > li:not(.name):nth-of-type(10) > .active { padding-left: 18.5px !important; border-bottom: none;  border-left: 4px solid #CC0000; }
     .p-menu .dropdown{ background: none !important; }
     article .content{ display: block; }

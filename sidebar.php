@@ -3,7 +3,7 @@
     <div class="search-box relative">
         <div class="holo-field-bckg"></div>
         <i class="ic-action-small ic-action-small-search"></i>
-        <input type="text" id="s" name="s" placeholder="Tapez votre Recherche Ici">
+        <input type="text" id="s" name="s" placeholder="search on this site">
         <input type="submit" value="" class="submit ic-action-small ic-action-small-send" id="searchsubmit">
     </div>
 </form>
