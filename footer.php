@@ -24,7 +24,7 @@
                         <?php if (get_option('holo_copyright') <> ""){
                             echo stripslashes(stripslashes(get_option('holo_copyright')));
                         }else{
-                            echo 'Copyright © 2009 - 2012 Throrin\'s Studio • Optimisé Webkit • Responsive WebDesign';
+                            echo 'Copyright © 2013 ChampionSwimmer • Copyright © 2009-2012 Throrin\'s Studio';
                         }?>
                     </p>
 
