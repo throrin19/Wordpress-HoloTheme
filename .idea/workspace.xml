@@ -7,8 +7,8 @@
     </list>
     <ignored path="HoloTheme.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1374176346745" ignored="false" />
-    <file path="/app.css" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1374178436643" ignored="false" />
+    <file path="/Dummy.txt" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1375093778940" ignored="false" />
+    <file path="/app.css" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1375094163377" ignored="false" />
     <file path="/index.php" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371639937124" ignored="false" />
     <file path="/info.php" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371584894060" ignored="false" />
     <file path="/header.php" changelist="51ea6184-04e2-4739-8373-1d9042437992" time="1371641502321" ignored="false" />
@@ -34,10 +34,11 @@
       <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="418" column="102" selection-start="37302" selection-end="37302" vertical-scroll-proportion="0.3625219">
+            <state line="455" column="48" selection-start="41602" selection-end="41602" vertical-scroll-proportion="0.32718122">
               <folding>
                 <element signature="e#29906#30075#1" expanded="true" />
-                <element signature="e#32414#32596#1" expanded="true" />
+                <element signature="e#32414#32595#1" expanded="true" />
+                <element signature="e#39567#39748#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,6 +121,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,22 +142,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../GoomeoEvents" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="FullScreen" value="true" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="vm-ubuntu" serverId="fbc96880-7bbb-46d7-af50-ed98e169f8a9" autoUpload="true">
     <servers>
@@ -211,14 +212,14 @@
       <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="fafd9530-005e-47c5-9ee1-658d2871d5ca" server_name="throrinstudio">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="fafd9530-005e-47c5-9ee1-658d2871d5ca" server_name="throrinstudio">
       <method />
     </configuration>
     <list size="0" />
@@ -364,7 +365,11 @@
       <created>1371996854143</created>
       <updated>1371996854143</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="+ design fix">
+      <created>1374178503882</created>
+      <updated>1374178503882</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -377,7 +382,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67070484" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28132677" sideWeight="0.67157894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28562653" sideWeight="0.67157894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -435,7 +440,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ fix bug border in widgets" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ design fix" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -449,7 +454,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Ajout des sprites d'icones action android&#10;Avancement du design pour la topbar&#10;Ajout de la titleBar&#10;Refonte de la footerbar&#10;Ajout des liens sociaux&#10;Avancement design des articles style google now&#10;" />
     <MESSAGE value="Finalisation cartes preview articles&#10;commencement widgets latéraux" />
     <MESSAGE value="Avancement des widgets&#10;Rajout du formulaire de recherche" />
     <MESSAGE value="Avancement des widgets&#10;Finalisation du footer" />
@@ -474,6 +478,7 @@
     <MESSAGE value="+ modification css des thumbs" />
     <MESSAGE value="+ update header design&#10;+ update code css" />
     <MESSAGE value="+ fix bug border in widgets" />
+    <MESSAGE value="+ design fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -558,10 +563,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="418" column="102" selection-start="37302" selection-end="37302" vertical-scroll-proportion="0.3625219">
+        <state line="455" column="48" selection-start="41602" selection-end="41602" vertical-scroll-proportion="0.32718122">
           <folding>
             <element signature="e#29906#30075#1" expanded="true" />
-            <element signature="e#32414#32596#1" expanded="true" />
+            <element signature="e#32414#32595#1" expanded="true" />
+            <element signature="e#39567#39748#1" expanded="true" />
           </folding>
         </state>
       </provider>

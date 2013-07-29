@@ -368,7 +368,7 @@ button:hover, .holo-btn:hover{ }
 .ic-overflow > a{ padding: 5px 0 0 !important; }
 .ic-overflow > a:after{ border: none !important; }
 .ic-overflow > a:hover, .ic-overflow > a:hover{ height: 45px !important; border-bottom: none !important; background: url("../images/stripe_select.png") repeat !important; }
-.title-bar{ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAOUlEQVQIW2P88+fPfwYs4PPnzwyM2CRBEry8vJiSMAmQYSg6kSVQJNEl4JLYJMCS79+//w+yHBsAADUMLYYw33xPAAAAAElFTkSuQmCCf") repeat; margin: 0; border-bottom: 1px solid #DFDFDF; }
+.title-bar{ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAN0lEQVQIW2P8DwQMWMDHjx8ZGLFJgiT4+fkxJWESIMNQdCJLoEiiS8AlsUmAJT98+PAfZDk2AABMZC2/YL4ZtAAAAABJRU5ErkJggg==') repeat; margin: 0; border-bottom: 1px solid #DFDFDF; }
 .socials-buttons{ padding-right: 0; padding-left: 40px; }
 .socials-buttons > .ic-btn{ margin-top: 10px; }
 .title-logo{ padding-top: 10px; padding-bottom: 10px; }
@@ -435,7 +435,7 @@ article .sharedaddy{ border-top : none; padding : 0; }
 ----------------------------------------- */
 aside{ padding: 0 !important; }
 aside .widget{ margin: 10px 0; border: 1px solid #DFDFDF; }
-aside .widget .title{ background: url("../images/stripe_body.png") repeat; border-bottom: 3px solid #33B5E5; padding: 10px 5px; text-align: center; color: #9C9C9C; margin: 0; }
+aside .widget .title{ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAN0lEQVQIW2P8DwQMWMDHjx8ZGLFJgiT4+fkxJWESIMNQdCJLoEiiS8AlsUmAJT98+PAfZDk2AABMZC2/YL4ZtAAAAABJRU5ErkJggg==") repeat; border-bottom: 3px solid #33B5E5; padding: 10px 5px; text-align: center; color: #9C9C9C; margin: 0; }
 aside > div:nth-of-type(1) .title, aside > div:nth-of-type(6) .title{ border-bottom: 3px solid #33B5E5; }
 aside > div:nth-of-type(2) .title, aside > div:nth-of-type(7) .title{ border-bottom: 3px solid #AA66CC; }
 aside > div:nth-of-type(3) .title, aside > div:nth-of-type(8) .title{ border-bottom: 3px solid #99CC00; }
@@ -453,7 +453,7 @@ aside .widget .content ul > li:last-child{ border-bottom: none; }
 aside .widget .content ul > li
 aside .widget .content ul > li > a{ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
 aside .widget .content a{ display: block; color: #8C8C8C; font-weight: bold; padding: 10px 10px 10px 15px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-aside .widget .content a:hover{ padding-left: 10.5px; border-left: 5px solid #33B5E5; }
+aside .widget .content a:hover{ padding-left: 10px; border-left: 5px solid #33B5E5; }
 aside > div:nth-of-type(1) .content a:hover, aside > div:nth-of-type(6) .content a:hover{ border-left: 5px solid #33B5E5;}
 aside > div:nth-of-type(2) .content a:hover, aside > div:nth-of-type(7) .content a:hover{ border-left: 5px solid #AA66CC;}
 aside > div:nth-of-type(3) .content a:hover, aside > div:nth-of-type(8) .content a:hover{ border-left: 5px solid #99CC00;}
