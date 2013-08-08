@@ -66,7 +66,7 @@ function widget_popular_posts_widgets($args) {
     $posts_array = get_posts(array(
         "orderby"       => "comment_count ",
         "order"         => "DESC",
-        'numberposts'   => 10,
+        'numberposts'   => 5,
     ));
     ?>
 <?php echo $before_widget; ?>

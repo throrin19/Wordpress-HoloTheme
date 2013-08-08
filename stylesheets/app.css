@@ -397,11 +397,13 @@ article .content h4{ font-size: 14px; line-height: 1.4; }
 article .content h5{ font-size: 12px; line-height: 1.4; }
 article .content p{ font-size: 13px; line-height: 1.4; }
 article .content ul > li{ margin-left: 30px; font-size: 13px; }
-article .content .info, article .content .warning, article .content .error, article .content .success{ border-radius: 2px; --webkit-border-radius: 2px; --moz-border-radius: 2px; margin: 5px 0; padding: 5px; }
-article .content .info{ color: #FFFFFF; border: 1px solid #33B5E5; background-color: #33B5E5; }
-article .content .warning{ color: #FFFFFF; border: 1px solid #FFBB33; background-color: #FFBB33; }
-article .content .error{ color: #FFFFFF; border: 1px solid #FF4444; background-color: #FF4444; }
-article .content .success{ color: #FFFFFF; border: 1px solid #99CC00; background-color: #99CC00; }
+article .content .edito, article .content .info, article .content .warning, article .content .error, article .content .success{ margin: 20px 0; padding: 15px 30px 15px 15px; border-left: 5px solid #eee; line-height: 16px; font-size: 13px; color: #555555; }
+article .content .edito, article .content .info h4, article .content .warning h4, article .content .error h4, article .content .success h4 { margin-top: 0; }
+article .content .edito, article .content .info p:last-child, article .content .warning p:last-child, article .content .error p:last-child, article .content .success p:last-child { margin-bottom: 0; }
+article .content .edito, article .content .info code, article .content .warning code, article .content .error code, article .content .success code, article .content .info .highlight, article .content .warning .highlight, article .content .error .highlight, article .content .success .highlight { background-color: #fff; }
+article .content .error { background-color: #fcf2f2; border-color: #dFb5b4; }
+article .content .warning { background-color: #fefbed; border-color: #f1e7bc; }
+article .content .info { background-color: #f0f7fd; border-color: #d0e3f0; }
 .comments, .credential{ background-color: #FDFDFD; border: 1px solid #DFDFDF; -moz-box-shadow: 0px 3px 3px 0px #DFDFDF; -webkit-box-shadow: 0px 1px 1px 0px #DFDFDF; -o-box-shadow: 0px 1px 1px 0px #DFDFDF; box-shadow: 0px 1px 1px 0px #DFDFDF; filter: progid:DXImageTransform.Microsoft.Shadow(color=#DFDFDF, Direction=180, Strength=1); -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; margin-bottom: 10px; }
 .credential .author{ border-top: 1px solid #DFDFDF; border-bottom: 1px solid #DFDFDF; background-color: #F0F0F0; overflow: auto; }
 .credential .author > .picture{ float: left; width: 60px; }
