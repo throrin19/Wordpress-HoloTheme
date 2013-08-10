@@ -73,7 +73,7 @@
                         <li class="has-dropdown ic-overflow">
                             <a href="#">
                                 <span class="show-940">Overflow</span>
-                                <img class="hide-940" src="<?php bloginfo('template_directory'); ?>/images/ic_action_overflow.png" alt="Overflow" />
+                                <i class="hide-940 icon-action-overflow header-overflow"></i>
                             </a>
                             <ul class="dropdown">
                                 <?php
@@ -105,21 +105,21 @@
                 <span><?php echo get_settings('blogdescription');?></span>
             </div>
             <div class="three columns socials-buttons">
-                <a class="ic-btn ic-action ic-action-feed" href="<?php bloginfo('rss2_url'); ?>"></a>
+                <a class="ic-btn" href="<?php bloginfo('rss2_url'); ?>"><i class="icon-feed icons-social"></i></a>
                 <?php if(get_option('holo_twitter_link')!=""){ ?>
-                <a class="ic-btn ic-action ic-action-twitter" href="<?php echo get_option('holo_twitter_link'); ?>"></a>
+                <a class="ic-btn" href="<?php echo get_option('holo_twitter_link'); ?>"><i class="icons-social icon-twitter"></i></a>
                 <?php } ?>
                 <?php if(get_option('holo_linkedin_link')!=""){ ?>
-                <a class="ic-btn ic-action ic-action-linkedin" href="<?php echo get_option('holo_linkedin_link'); ?>"></a>
+                <a class="ic-btn" href="<?php echo get_option('holo_linkedin_link'); ?>"><i class="icons-social icon-linkedin-2"></i></a>
                 <?php } ?>
                 <?php if(get_option('holo_gplus_link')!=""){ ?>
-                <a class="ic-btn ic-action ic-action-gplus" href="<?php echo get_option('holo_gplus_link'); ?>"></a>
+                <a class="ic-btn" href="<?php echo get_option('holo_gplus_link'); ?>"><i class="icons-social icon-google-plus-4"></i></a>
                 <?php } ?>
                 <?php if(get_option('holo_github_link')!=""){ ?>
-                <a class="ic-btn ic-action ic-action-github" href="<?php echo get_option('holo_github_link'); ?>"></a>
+                <a class="ic-btn" href="<?php echo get_option('holo_github_link'); ?>"><i class="icons-social icon-github-3"></i></a>
                 <?php } ?>
                 <?php if(get_option('holo_playstore_link')!=""){ ?>
-                <a class="ic-btn ic-action ic-action-google-play" href="<?php echo get_option('holo_playstore_link'); ?>"></a>
+                <a class="ic-btn" href="<?php echo get_option('holo_playstore_link'); ?>"><i class="icons-social icon-play_store"></i></a>
                 <?php } ?>
             </div>
         </div>

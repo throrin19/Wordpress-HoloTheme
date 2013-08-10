@@ -34,11 +34,11 @@
                     </h3>
                     <div class="row details">
                         <div class="six columns">
-                            <i class="ic-action-small ic-action-small-calendar-month"></i>
+                            <i class="icons-basic icon-collections-go-to-today"></i>
                             <?php echo the_date("l j F Y, G:i") ?>
                         </div>
                         <div class="six columns txt-right">
-                            <i class="ic-action-small ic-action-small-star-10"></i>
+                            <i class="icons-basic icon-bookmark"></i>
                             <?php the_category(', ') ?>
                         </div>
                     </div>
@@ -63,13 +63,13 @@
                     </div>
                     <div class="row infos">
                         <div class="four columns">
-                            <i class="ic-action-small ic-action-small-user"></i><?php the_author_link(); ?>
+                            <i class="icons-basic icon-social-person"></i><?php the_author_link(); ?>
                         </div>
                         <div class="four columns">
-                            <i class="ic-action-small ic-action-small-sms"></i><?php comments_popup_link('Pas de Commentaires', '1 Commentaire ', '% Commentaire(s)'); ?>
+                            <i class="icons-basic icon-social-chat"></i><?php comments_popup_link('Pas de Commentaires', '1 Commentaire ', '% Commentaire(s)'); ?>
                         </div>
                         <div class="four columns txt-right">
-                            <a href="<?php the_permalink() ?>"><i class="ic-action-small ic-action-small-news"></i> Lire la suite</a>
+                            <a href="<?php the_permalink() ?>"><i class="icons-basic icon-content-read"></i> Lire la suite</a>
                         </div>
                     </div>
                 </article>
