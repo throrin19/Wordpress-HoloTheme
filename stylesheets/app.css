@@ -908,7 +908,7 @@ you can use the generic selector below, but it's slower:
 .icon-linkedin-2:before {
     content: "\e0e8";
 }
-.icons-social{ color: darkgrey; font-size: 30px; padding: 5px; line-height: 45px !important; }
+.icons-social{ color: darkgrey; font-size: 35px; padding: 5px; line-height: 45px !important; }
 .icons-social:hover{ color: #33B5E5; }
 .icons-basic{ color: darkgray; font-size: 19px; }
 .icons-search{ line-height: 20px; font-size: 23px; color: darkgrey; }
@@ -975,8 +975,8 @@ button:hover, .holo-btn:hover{ }
 .ic-overflow > a:after{ border: none !important; }
 .ic-overflow > a:hover, .ic-overflow > a:hover{ height: 45px !important; border-bottom: none !important; background: url("../images/stripe_select.png") repeat !important; }
 .title-bar{ background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAN0lEQVQIW2P8DwQMWMDHjx8ZGLFJgiT4+fkxJWESIMNQdCJLoEiiS8AlsUmAJT98+PAfZDk2AABMZC2/YL4ZtAAAAABJRU5ErkJggg==') repeat; margin: 0; border-bottom: 1px solid #DFDFDF; }
-.socials-buttons{ padding-right: 0; padding-left: 40px; }
-.socials-buttons > .ic-btn{ margin-top: 10px; }
+.socials-buttons{ padding-right: 0; padding-left: 40px; padding-top: 15px; }
+.socials-buttons > .ic-btn{ margin-top: 10px; line-height: 40px; }
 .title-logo{ padding-top: 10px; padding-bottom: 10px; }
 .title-logo > span{ color: #AAAAAA;  }
 .action-bar .dropdown{ padding: 0 !important; margin: 0 !important; }
